@@ -21,6 +21,9 @@
     	<module>../com.eclipseninja.slingshot.repository</module>
     	<module>../com.eclipseninja.slingshot.repository.tests</module>
     	<module>../com.eclipseninja.slingshot.repository.features</module>
+    	<module>../com.eclipseninja.slingshot.application</module>
+    	<module>../com.eclipseninja.slingshot.application.feature</module>
+    	<module>../com.eclipseninja.slingshot.application.product</module>
     </modules>
     
 	<build>

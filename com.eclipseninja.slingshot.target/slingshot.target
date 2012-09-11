@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target name="slingshot" sequenceNumber="8">
+<target name="slingshot" sequenceNumber="9">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.aopalliance" version="1.0.0.v201105210816"/>
@@ -143,6 +143,22 @@
 <unit id="org.springframework.test" version="3.1.2.RELEASE"/>
 <unit id="com.mysql.jdbc" version="5.1.21"/>
 <repository location="http://localhost:9090/update"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.e4.rcp.feature.group" version="1.1.0.v20120521-2329-8yFTIGF3GGduEYqkQB9M3DKn"/>
+<unit id="org.eclipse.e4.rcp.source.feature.group" version="1.1.0.v20120521-2329-8yFTIGF3GGduEYqkQB9M3DKn"/>
+<unit id="epp.package.rcp" version="1.5.0.20120614-1633"/>
+<unit id="org.eclipse.rcp.feature.group" version="4.2.0.v20120528-1648-7IAPA7BrHQicRpNdOz-Obz-rlRCA"/>
+<unit id="org.eclipse.rcp.source.feature.group" version="4.2.0.v20120528-1648-7IAPA7BrHQicRpNdOz-Obz-rlRCA"/>
+<unit id="org.eclipse.rcp.sdk.id" version="4.2.0.I20120608-1400"/>
+<unit id="org.eclipse.emf.ecore.feature.group" version="2.8.0.v20120606-0717"/>
+<unit id="org.eclipse.emf.feature.group" version="2.8.0.v20120608-0554"/>
+<unit id="org.eclipse.emf.sdk.feature.group" version="2.8.0.v20120608-0554"/>
+<unit id="org.eclipse.emf.ecore.xcore.feature.group" version="1.0.0.v20120612-0950"/>
+<unit id="org.eclipse.emf.ecore.xcore.sdk.feature.group" version="1.0.0.v20120612-0950"/>
+<unit id="org.eclipse.emf.ecore.xcore.ui.feature.group" version="1.0.0.v20120612-0950"/>
+<unit id="org.eclipse.equinox.p2.extras.feature.source.feature.group" version="1.1.0.v20120524-0542-7A6FEcDiVOTg1Q_HuZrEuBtr2dhs"/>
+<repository location="http://download.eclipse.org/releases/juno"/>
 </location>
 </locations>
 </target>

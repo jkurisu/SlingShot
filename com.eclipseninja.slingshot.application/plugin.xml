@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="com.eclipseninja.slingshot.application"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="com.eclipseninja.slingshot.application">
+         </property>
+         <property
+               name="applicationXMI"
+               value="com.eclipseninja.slingshot.application/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.eclipseninja.slingshot.application/css/default.css">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
