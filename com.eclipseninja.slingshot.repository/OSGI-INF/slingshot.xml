@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="SlingShot">
+   <implementation class="com.eclipseninja.slingshot.internal.repository.SlingShotImpl"/>
+   <reference bind="setEventAdmin" cardinality="1..1" interface="org.osgi.service.event.EventAdmin" name="EventAdmin" policy="static" unbind="unsetEventAdmin"/>
+   <reference bind="setSlingRepository" cardinality="1..1" interface="org.apache.sling.jcr.api.SlingRepository" name="SlingRepository" policy="static" unbind="unsetSlingRepository"/>
+   <!--
+   <reference bind="setResourceResolverFactory" cardinality="1..1" interface="org.apache.sling.api.resource.ResourceResolverFactory" name="ResourceResolverFactory" policy="static" unbind="unsetResourceResolverFactory"/>
+   -->
+   <service>
+      <provide interface="com.eclipseninja.slingshot.repository.SlingShot"/>
+   </service>
+</scr:component>

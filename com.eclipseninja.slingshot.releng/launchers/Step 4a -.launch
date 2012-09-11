@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.EquinoxLauncher">
+<booleanAttribute key="append.args" value="true"/>
+<booleanAttribute key="automaticAdd" value="true"/>
+<booleanAttribute key="automaticValidate" value="false"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="false"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/Step 4a -"/>
+<booleanAttribute key="default" value="true"/>
+<booleanAttribute key="default_auto_start" value="true"/>
+<intAttribute key="default_start_level" value="4"/>
+<stringAttribute key="deselected_workspace_plugins" value="com.eclipseninja.slingshot.repository.tests,org.eclemma.runtime.equinox,org.eclipse.equinox.ds"/>
+<booleanAttribute key="includeOptional" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog -console"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Declipse.ignoreApp=true -Dosgi.noShutdown=true -Dorg.osgi.service.http.port=8092"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<booleanAttribute key="show_selected_only" value="false"/>
+<stringAttribute key="target_bundles" value="com.mysql.jdbc@default:default,derby@default:default,javax.jcr@default:default,javax.servlet@default:default,log4j@default:default,org.aopalliance@default:default,org.apache.commons.codec*1.6.0@default:default,org.apache.commons.collections@default:default,org.apache.commons.fileupload@default:default,org.apache.commons.httpclient@default:default,org.apache.commons.io@default:default,org.apache.commons.logging*1.1.1.v201101211721@default:default,org.apache.felix.gogo.command@default:default,org.apache.felix.gogo.runtime@default:default,org.apache.felix.gogo.shell@default:default,org.apache.jackrabbit.jackrabbit-api@default:default,org.apache.jackrabbit.jackrabbit-jcr-commons@default:default,org.apache.jackrabbit.jackrabbit-jcr-rmi@default:default,org.apache.jackrabbit.jackrabbit-jcr-server@default:default,org.apache.jackrabbit.jackrabbit-spi-commons@default:default,org.apache.jackrabbit.jackrabbit-spi@default:default,org.apache.jackrabbit.jackrabbit-webdav@default:default,org.apache.mina.core@default:default,org.apache.sling.commons.logservice@default:default,org.apache.sling.jcr.api@default:default,org.apache.sling.jcr.base@default:default,org.apache.sling.jcr.jackrabbit.server@default:default,org.apache.sshd.core@default:default,org.apache.tika.bundle@default:default,org.apache.tika.core@default:default,org.eclipse.equinox.cm@default:default,org.eclipse.equinox.console.jaas.fragment@default:false,org.eclipse.equinox.console.ssh@default:default,org.eclipse.equinox.console@default:default,org.eclipse.equinox.ds@1:true,org.eclipse.equinox.event@default:default,org.eclipse.equinox.http.jetty@default:default,org.eclipse.equinox.http.servlet@default:default,org.eclipse.equinox.metatype@default:default,org.eclipse.equinox.util@default:default,org.eclipse.gemini.blueprint.core@default:default,org.eclipse.gemini.blueprint.extender@default:default,org.eclipse.gemini.blueprint.io@default:default,org.eclipse.jetty.continuation@default:default,org.eclipse.jetty.http@default:default,org.eclipse.jetty.io@default:default,org.eclipse.jetty.security@default:default,org.eclipse.jetty.server@default:default,org.eclipse.jetty.servlet@default:default,org.eclipse.jetty.util@default:default,org.eclipse.osgi.services@default:default,org.eclipse.osgi@-1:true,org.springframework.aop@default:default,org.springframework.asm@default:default,org.springframework.beans@default:default,org.springframework.context@default:default,org.springframework.core@default:default,org.springframework.expression@default:default,slf4j.api@default:default,slf4j.log4j12@default:false"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<stringAttribute key="workspace_bundles" value="com.eclipseninja.slingshot.logging@default:false,com.eclipseninja.slingshot.repository@default:default"/>
+</launchConfiguration>

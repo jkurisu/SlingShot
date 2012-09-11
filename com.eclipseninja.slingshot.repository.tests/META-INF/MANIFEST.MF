@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: com.eclipseninja.slingshot.repository.tests
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: ECLIPSENINJA
+Fragment-Host: com.eclipseninja.slingshot.repository;bundle-version="0.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.junit;bundle-version="4.10.0",
+ org.hamcrest;bundle-version="1.1.0",
+ org.hamcrest.generator;bundle-version="1.1.0",
+ org.hamcrest.integration;bundle-version="1.1.0",
+ org.hamcrest.library;bundle-version="1.1.0",
+ org.hamcrest.text;bundle-version="1.1.0",
+ org.mockito.mockito-all;bundle-version="1.9.0"
