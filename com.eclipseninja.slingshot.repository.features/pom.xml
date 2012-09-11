@@ -13,8 +13,8 @@
 	<artifactId>com.eclipseninja.slingshot.repository.features</artifactId>
 	<packaging>pom</packaging>
 
-	<name>Eclipse Ninja Sling Shot Repository Features</name>
-	<description>Eclipse Ninja Sling Shot Repository Features Project.</description>
+	<name>Eclipse Ninja SlingShot Repository Features</name>
+	<description>Eclipse Ninja SlingShot Repository Features Project.</description>
 
 	<build>
 		<plugins>
