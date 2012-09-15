@@ -114,7 +114,13 @@ public class ServletContextAdaptor {
 
 	public void setAttribute(String attributeName, Object attributeValue) {
 		Dictionary attributes = proxyContext.getContextAttributes(httpContext);
-		attributes.put(attributeName, attributeValue);
+		if (attributeName == null && attributeValue == null) {
+			return;
+		} else if (attributeName != null && attributeValue == null) {
+			attributes.remove(attributeName);
+		} else {
+			attributes.put(attributeName, attributeValue);
+		}
 	}
 
 	public void removeAttribute(String attributeName) {
