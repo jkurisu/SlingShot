@@ -461,7 +461,7 @@ public class DeclarationParser implements ExTagListener {
 				value = tag.getContent();
 				if (value == null) {
 					IllegalArgumentException e = new IllegalArgumentException(Messages.INVALID_PROPERTY_TAG__NO_BODY_CONTENT);
-					throw e;
+					//					throw e;
 				}
 				StringTokenizer tok = new StringTokenizer(value, "\n\r"); //$NON-NLS-1$
 				Vector el = new Vector(10);
