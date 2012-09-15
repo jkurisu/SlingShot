@@ -13,14 +13,14 @@ public class SlingShotCommand {
 	private SlingShot slingShot;
 
 	public void setSlingShot(SlingShot slingShot) {
-		logger.debug("Running SlingShotCommand.setSlingShot(): " + slingShot);
+		logger.info("Running SlingShotCommand.setSlingShot(): " + slingShot);
 		this.slingShot = slingShot;
 	}
 	
 	public void login(String[] values) {
-		logger.debug("login: ");
+		logger.info("login: ");
 		for (String value : values) {
-			logger.debug("\t" + value);
+			logger.info("\t" + value);
 		}
 		try {
 			slingShot.login(values[0], values[1]);
@@ -30,9 +30,18 @@ public class SlingShotCommand {
 	}
 	
 	public void logout(String[] values) {
-		logger.debug("logout: ");
+		logger.info("logout: ");
 		for (String value : values) {
-			logger.debug("\t" + value);
+			logger.info("\t" + value);
+		}
+	}
+	
+	public void timeout(long value) {
+		logger.info("timeout: " + value);
+		try {
+			slingShot.timeout(value);
+		} catch (SlingShotException e) {
+			e.printStackTrace();
 		}
 	}
 }

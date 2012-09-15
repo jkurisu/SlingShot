@@ -161,4 +161,1591 @@
 <repository location="http://download.eclipse.org/releases/juno"/>
 </location>
 </locations>
+<includeBundles>
+<plugin id="org.eclipse.jetty.continuation.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.equinox.simpleconfigurator.manipulator" version="2.0.0.v20110808-1657"/>
+<plugin id="javax.annotation" version="1.0.0.v20101115-0725"/>
+<plugin id="org.eclipse.help.webapp"/>
+<plugin id="org.eclipse.e4.ui.workbench.renderers.swt" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.wst.validation.infopop"/>
+<plugin id="org.eclipse.equinox.bidi" version="0.9.0.v20120522-1841"/>
+<plugin id="org.eclipse.equinox.p2.repository.tools.source" version="2.0.100.v20120501-1314"/>
+<plugin id="org.apache.commons.pool" version="1.6.0.v201204271246"/>
+<plugin id="org.objectweb.asm"/>
+<plugin id="org.eclipse.equinox.p2.jarprocessor" version="1.0.200.v20110808-1657"/>
+<plugin id="org.eclipse.wst.common.modulecore.ui"/>
+<plugin id="org.jdom.source"/>
+<plugin id="org.eclipse.ecf.identity" version="3.1.200.v20120608-0148"/>
+<plugin id="org.apache.sling.resourceresolver"/>
+<plugin id="org.eclipse.xtend.source"/>
+<plugin id="org.eclipse.equinox.security.source" version="1.1.100.v20120522-1841"/>
+<plugin id="org.eclipse.core.databinding.observable.source" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.core.databinding" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.p2.installer"/>
+<plugin id="com.google.gson.source"/>
+<plugin id="org.eclipse.mylyn.bugzilla.ui.source"/>
+<plugin id="org.eclipse.core.commands" version="3.6.1.v20120521-2329"/>
+<plugin id="com.thoughtworks.qdox.source"/>
+<plugin id="org.eclipse.e4.ui.css.core.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.batik.util.gui" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.xtext.generator.source"/>
+<plugin id="org.eclipse.e4.core.di.extensions.source" version="0.11.0.v20120523-2004"/>
+<plugin id="ch.qos.logback.classic.source" version="1.0.0.v20111214-2030"/>
+<plugin id="org.apache.lucene.queries.source"/>
+<plugin id="org.eclipse.ui.workbench.texteditor.source"/>
+<plugin id="org.eclipse.team.core.source"/>
+<plugin id="org.eclipse.pde.ds.core"/>
+<plugin id="org.eclipse.epp.mpc.ui"/>
+<plugin id="org.apache.commons.logging.source" version="1.1.1.v201101211721"/>
+<plugin id="org.eclipse.equinox.bidi" version="0.9.0.v20120522-1841"/>
+<plugin id="org.eclipse.emf.mapping.ecore2ecore.editor.source"/>
+<plugin id="org.eclipse.equinox.cm.source"/>
+<plugin id="org.eclipse.jdt.launching.ui.macosx"/>
+<plugin id="org.eclipse.ui.navigator"/>
+<plugin id="org.eclipse.emf.importer.java.source"/>
+<plugin id="org.eclipse.e4.ui.model.workbench.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.event" version="1.2.200.v20120522-2049"/>
+<plugin id="ch.qos.logback.slf4j.source" version="1.0.0.v20120123-1500"/>
+<plugin id="org.eclipse.core.net.source" version="1.2.200.v20120522-1148"/>
+<plugin id="org.eclipse.equinox.weaving.caching"/>
+<plugin id="org.apache.commons.codec" version="1.6.0"/>
+<plugin id="org.apache.mina.core.source"/>
+<plugin id="org.apache.batik.util.gui.source" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.mylyn.wikitext.twiki.ui"/>
+<plugin id="org.eclipse.ui.browser.source" version="3.4.0.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.registry.source" version="3.5.200.v20120522-1841"/>
+<plugin id="org.eclipse.mylyn.commons.screenshots"/>
+<plugin id="org.eclipse.equinox.supplement" version="1.4.100.v20120522-1813"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer" version="3.2.0.v20120608-0148"/>
+<plugin id="org.eclipse.e4.core.di.extensions.source" version="0.11.0.v20120523-2004"/>
+<plugin id="org.eclipse.mylyn.wikitext.confluence.ui"/>
+<plugin id="org.apache.felix.scr" version="1.6.0"/>
+<plugin id="org.apache.commons.pool" version="1.5.4"/>
+<plugin id="org.eclipse.equinox.registry.source" version="3.5.200.v20120522-1841"/>
+<plugin id="org.eclipse.ui.console.source"/>
+<plugin id="org.eclipse.e4.ui.css.core" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.jetty.security.source" version="8.1.3.v20120522"/>
+<plugin id="org.apache.lucene.source" version="3.5.0.v20120319-2345"/>
+<plugin id="org.apache.geronimo.bundles.commons-httpclient" version="3.1.0.1"/>
+<plugin id="org.eclipse.jface.source" version="3.8.0.v20120521-2329"/>
+<plugin id="org.eclipse.ui.workbench" version="3.103.0.v20120530-1824"/>
+<plugin id="org.eclipse.pde.build"/>
+<plugin id="org.eclipse.equinox.supplement" version="1.4.100.v20120522-1813"/>
+<plugin id="org.eclipse.team.cvs.ssh2.source"/>
+<plugin id="org.apache.sling.engine"/>
+<plugin id="org.eclipse.equinox.p2.updatechecker.source" version="1.1.200.v20110808-1657"/>
+<plugin id="org.eclipse.xtend.lib.source"/>
+<plugin id="org.apache.ant.source"/>
+<plugin id="org.eclipse.equinox.p2.discovery.compatibility" version="1.0.101.v20120524-1717"/>
+<plugin id="org.apache.batik.util" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.core.jobs.source" version="3.5.200.v20120521-2346"/>
+<plugin id="org.eclipse.wb.os"/>
+<plugin id="org.eclipse.equinox.security.source" version="1.1.100.v20120522-1841"/>
+<plugin id="org.apache.commons.cli"/>
+<plugin id="org.eclipse.mylyn.wikitext.ui"/>
+<plugin id="org.apache.commons.logging" version="1.0.4.v201101211617"/>
+<plugin id="org.apache.batik.util.gui" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.jetty.server.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.mylyn.builds.core"/>
+<plugin id="javax.xml.stream" version="1.0.1.v201004272200"/>
+<plugin id="org.eclipse.core.contenttype.source" version="3.4.200.v20120523-2004"/>
+<plugin id="org.eclipse.ui.ide.source"/>
+<plugin id="osgi.compendium" version="4.1.0.build-200702212030"/>
+<plugin id="org.eclipse.ui.console"/>
+<plugin id="org.eclipse.mylyn.builds.ui.source"/>
+<plugin id="org.apache.sling.settings"/>
+<plugin id="org.eclipse.mylyn.commons.xmlrpc"/>
+<plugin id="org.eclipse.core.filesystem.macosx"/>
+<plugin id="org.apache.batik.css" version="1.6.0.v201011041432"/>
+<plugin id="org.hamcrest.core.source" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.equinox.jsp.jasper" version="1.0.400.v20120522-2049"/>
+<plugin id="org.jdom"/>
+<plugin id="org.eclipse.mylyn.java.tasks.source"/>
+<plugin id="org.eclipse.e4.ui.bindings" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.emf.mapping.ecore2ecore"/>
+<plugin id="org.eclipse.emf.ecore.change" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.pde.ui"/>
+<plugin id="org.w3c.css.sac.source" version="1.3.1.v200903091627"/>
+<plugin id="org.eclipse.e4.core.services" version="1.0.0.v20120521-2346"/>
+<plugin id="org.eclipse.ecf.ssl.source" version="1.0.100.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.servletbridge.extensionbundle" version="1.2.100.v20120522-2049"/>
+<plugin id="javax.el" version="2.2.0.v201108011116"/>
+<plugin id="org.eclipse.ltk.ui.refactoring.source"/>
+<plugin id="org.eclipse.equinox.http.jetty" version="3.0.0.v20120522-1841"/>
+<plugin id="org.eclipse.mylyn.wikitext.tracwiki.core.source"/>
+<plugin id="org.eclipse.equinox.util" version="1.0.400.v20120522-2049"/>
+<plugin id="org.eclipse.wst.common.environment"/>
+<plugin id="org.eclipse.core.jobs" version="3.5.200.v20120521-2346"/>
+<plugin id="org.eclipse.swt.cocoa.macosx.x86_64"/>
+<plugin id="org.apache.commons.dbcp"/>
+<plugin id="org.eclipse.pde.source"/>
+<plugin id="org.eclipse.wb.core"/>
+<plugin id="org.eclipse.equinox.p2.artifact.repository.source" version="1.1.200.v20120430-1959"/>
+<plugin id="javax.el" version="2.2.0.v201108011116"/>
+<plugin id="org.hamcrest" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.wst.common.snippets"/>
+<plugin id="org.eclipse.equinox.p2.core.source" version="2.2.0.v20120430-0525"/>
+<plugin id="javax.inject.source" version="1.0.0.v20091030"/>
+<plugin id="org.apache.commons.codec" version="1.6.0"/>
+<plugin id="org.eclipse.jface.databinding.source" version="1.6.0.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.security.ui.source" version="1.1.100.v20120522-2049"/>
+<plugin id="slf4j.api" version="1.6.6"/>
+<plugin id="org.eclipse.core.databinding" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.e4.core.di.source" version="1.1.0.v20120521-2346"/>
+<plugin id="org.eclipse.e4.ui.workbench.renderers.swt.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.wst.common.emf"/>
+<plugin id="org.eclipse.ant.core"/>
+<plugin id="org.apache.felix.eventadmin" version="1.2.14"/>
+<plugin id="org.eclipse.e4.ui.bindings.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.sling.commons.scheduler"/>
+<plugin id="org.apache.commons.codec.source" version="1.3.0.v201101211617"/>
+<plugin id="org.eclipse.ui.forms" version="3.5.200.v20120521-2329"/>
+<plugin id="org.apache.httpcomponents.httpcore"/>
+<plugin id="org.eclipse.jetty.continuation" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.help" version="3.6.0.v20120521-2344"/>
+<plugin id="org.eclipse.core.expressions.source" version="3.4.400.v20120523-2004"/>
+<plugin id="ch.qos.logback.classic.source" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.equinox.transforms.xslt"/>
+<plugin id="org.eclipse.equinox.http.servletbridge.source"/>
+<plugin id="org.eclipse.jdt.junit4.runtime.source"/>
+<plugin id="org.eclipse.ui.workbench.source" version="3.103.0.v20120530-1824"/>
+<plugin id="org.eclipse.wst.standard.schemas"/>
+<plugin id="org.eclipse.core.runtime.compatibility.source"/>
+<plugin id="org.apache.aries.jmx.core"/>
+<plugin id="org.eclipse.mylyn.context.ui.source"/>
+<plugin id="org.eclipse.equinox.p2.publisher.eclipse.source" version="1.1.0.v20120511-1931"/>
+<plugin id="org.eclipse.xtext.ui.shared"/>
+<plugin id="org.eclipse.mylyn.commons.net"/>
+<plugin id="log4j" version="1.2.17"/>
+<plugin id="org.eclipse.mylyn.wikitext.tasks.ui"/>
+<plugin id="org.eclipse.emf.codegen.ecore.xtext.source"/>
+<plugin id="org.eclipse.equinox.frameworkadmin.equinox" version="1.0.400.v20120428-0117"/>
+<plugin id="org.eclipse.ui.ide.application.source"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.httpclient.ssl" version="1.0.0.v20120608-0148"/>
+<plugin id="org.apache.felix.http.api"/>
+<plugin id="org.apache.jackrabbit.jackrabbit-api"/>
+<plugin id="org.eclipse.e4.ui.css.swt.theme.source" version="0.9.2.v20120523-1955"/>
+<plugin id="org.eclipse.wb.os.macosx"/>
+<plugin id="org.hamcrest.text.source" version="1.1.0.v20090501071000"/>
+<plugin id="com.google.inject.source"/>
+<plugin id="org.hamcrest.text" version="1.1.0.v20090501071000"/>
+<plugin id="com.google.gwtorm.source"/>
+<plugin id="org.eclipse.equinox.event" version="1.2.200.v20120522-2049"/>
+<plugin id="org.eclipse.core.net.source" version="1.2.200.v20120522-1148"/>
+<plugin id="org.osgi.compendium" version="4"/>
+<plugin id="org.eclipse.emf.common.source" version="2.8.0.v20120606-0717"/>
+<plugin id="javax.servlet.jsp.source" version="2.2.0.v201112011158"/>
+<plugin id="org.eclipse.equinox.http.servlet.source" version="1.1.300.v20120522-1841"/>
+<plugin id="org.apache.sling.commons.json"/>
+<plugin id="slf4j.api" version="1.6.6"/>
+<plugin id="org.eclipse.emf.ecore.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.e4.ui.workbench.addons.swt.source"/>
+<plugin id="org.eclipse.e4.ui.css.swt.theme" version="0.9.2.v20120523-1955"/>
+<plugin id="org.eclipse.wst.dtd.ui"/>
+<plugin id="org.eclipse.jdt.launching.ui.macosx.source"/>
+<plugin id="org.eclipse.equinox.p2.director.app" version="1.0.300.v20120428-0517"/>
+<plugin id="org.junit" version="4.10.0.v4_10_0_v20120426-0900"/>
+<plugin id="org.apache.log4j.source" version="1.2.15.v201012070815"/>
+<plugin id="org.eclipse.equinox.p2.directorywatcher.source" version="1.0.300.v20110808-1657"/>
+<plugin id="org.eclipse.jdt.doc.user"/>
+<plugin id="org.eclipse.emf.ecore.change.edit.source"/>
+<plugin id="org.eclipse.equinox.launcher.source" version="1.3.0.v20120522-1813"/>
+<plugin id="org.eclipse.equinox.launcher" version="1.3.0.v20120522-1813"/>
+<plugin id="org.apache.commons.pool.source" version="1.6.0.v201204271246"/>
+<plugin id="org.eclipse.core.jobs" version="3.5.200.v20120521-2346"/>
+<plugin id="org.eclipse.equinox.jsp.jasper" version="1.0.400.v20120522-2049"/>
+<plugin id="org.eclipse.e4.ui.services" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.p2.operations" version="2.2.0.v20120524-0542"/>
+<plugin id="osgi.compendium" version="4.1.0.build-200702212030"/>
+<plugin id="ch.qos.logback.slf4j" version="1.0.0.v20120123-1500"/>
+<plugin id="org.eclipse.emf.mapping.ecore2ecore.editor"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jta_1.1_spec"/>
+<plugin id="org.eclipse.osgi.util" version="3.2.300.v20120522-1822"/>
+<plugin id="org.eclipse.wst.common.modulecore"/>
+<plugin id="org.eclipse.mylyn.tasks.search.source"/>
+<plugin id="org.eclipse.emf.ecore.xmi.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.equinox.console.jaas.fragment"/>
+<plugin id="org.eclipse.emf.mwe.utils.source"/>
+<plugin id="org.eclipse.update.configurator.source"/>
+<plugin id="org.eclipse.equinox.simpleconfigurator.source" version="1.0.300.v20110815-1744"/>
+<plugin id="org.eclipse.rap.ui.launch.rwt.source"/>
+<plugin id="org.eclipse.mylyn.tasks.bugs.source"/>
+<plugin id="org.eclipse.mylyn.java.ui.source"/>
+<plugin id="org.eclipse.core.net" version="1.2.200.v20120522-1148"/>
+<plugin id="org.eclipse.pde.build.source"/>
+<plugin id="org.eclipse.team.ui.source"/>
+<plugin id="org.eclipse.jetty.util" version="8.1.3.v20120522"/>
+<plugin id="org.slf4j.api" version="1.6.4.v20120130-2120"/>
+<plugin id="org.eclipse.emf.common.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.hamcrest.text" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.jetty.io" version="8.1.3.v20120522"/>
+<plugin id="com.sun.syndication.source"/>
+<plugin id="org.eclipse.core.commands.source" version="3.6.1.v20120521-2329"/>
+<plugin id="org.eclipse.swt" version="3.100.0.v4233d"/>
+<plugin id="org.w3c.css.sac.source" version="1.3.1.v200903091627"/>
+<plugin id="org.eclipse.help.webapp.source"/>
+<plugin id="org.eclipse.m2e.lifecyclemapping.defaults"/>
+<plugin id="com.jcraft.jsch.source"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.httpclient.source" version="4.0.200.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.p2.touchpoint.eclipse" version="2.1.100.v20120428-0117"/>
+<plugin id="org.eclipse.equinox.p2.ui.importexport" version="1.0.1.v20110818-1344"/>
+<plugin id="org.eclipse.mylyn.wikitext.confluence.core.source"/>
+<plugin id="org.apache.sling.scripting.jsp" version="2.0.24"/>
+<plugin id="org.apache.sling.commons.log" version="3.0.0"/>
+<plugin id="org.w3c.css.sac" version="1.3.1.v200903091627"/>
+<plugin id="org.eclipse.equinox.security" version="1.1.100.v20120522-1841"/>
+<plugin id="org.eclipse.e4.ui.bindings.source" version="0.10.1.v20120523-1955"/>
+<plugin id="log4j.over.slf4j" version="1.6.4"/>
+<plugin id="org.eclipse.wb.rcp.swing2swt"/>
+<plugin id="org.eclipse.mylyn.context.core.source"/>
+<plugin id="org.apache.sling.api" version="2.2.5.SNAPSHOT"/>
+<plugin id="org.eclipse.mylyn.tasks.ui.source"/>
+<plugin id="org.eclipse.emf.importer.rose.source"/>
+<plugin id="org.eclipse.equinox.p2.engine.source" version="2.2.0.v20120501-1502"/>
+<plugin id="javax.annotation.source" version="1.0.0.v20101115-0725"/>
+<plugin id="org.apache.commons.codec" version="1.3.0.v201101211617"/>
+<plugin id="org.eclipse.emf.mapping.ecore"/>
+<plugin id="org.eclipse.mylyn.tasks.index.core"/>
+<plugin id="org.eclipse.emf.mwe2.launch.source"/>
+<plugin id="org.eclipse.ui.forms" version="3.5.200.v20120521-2329"/>
+<plugin id="org.eclipse.jgit"/>
+<plugin id="org.eclipse.equinox.p2.updatesite" version="1.0.400.v20120412-1615"/>
+<plugin id="org.eclipse.mylyn.versions.ui"/>
+<plugin id="org.eclipse.pde.core"/>
+<plugin id="org.eclipse.core.databinding.property" version="1.4.100.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.console.source" version="1.0.0.v20120522-1841"/>
+<plugin id="org.eclipse.emf.ecore.xcore.source"/>
+<plugin id="org.apache.sling.extensions.webconsolesecurityprovider"/>
+<plugin id="org.eclipse.jetty.http" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.ui.views.properties.tabbed"/>
+<plugin id="javax.xml.bind"/>
+<plugin id="org.eclipse.core.runtime.compatibility"/>
+<plugin id="org.eclipse.egit"/>
+<plugin id="org.eclipse.equinox.p2.ui.importexport.source" version="1.0.1.v20110818-1344"/>
+<plugin id="org.eclipse.ecf.identity.source" version="3.1.200.v20120608-0148"/>
+<plugin id="org.eclipse.pde.ui.source"/>
+<plugin id="org.eclipse.emf.ecore.xmi.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.apache.tika.bundle"/>
+<plugin id="org.apache.felix.bundlerepository"/>
+<plugin id="org.eclipse.equinox.common.source" version="3.6.100.v20120522-1841"/>
+<plugin id="org.eclipse.equinox.p2.touchpoint.natives" version="1.1.0.v20120524-0542"/>
+<plugin id="org.eclipse.e4.ui.css.swt" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.device"/>
+<plugin id="org.apache.felix.gogo.runtime.source" version="0.8.0.v201108120515"/>
+<plugin id="org.apache.commons.logging.source" version="1.0.4.v201101211617"/>
+<plugin id="org.eclipse.egit.ui"/>
+<plugin id="org.eclipse.jface.databinding" version="1.6.0.v20120521-2329"/>
+<plugin id="org.eclipse.core.contenttype" version="3.4.200.v20120523-2004"/>
+<plugin id="org.eclipse.jetty.util.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.mylyn.resources.ui"/>
+<plugin id="osgi.core" version="4.1.0.build-200702212030"/>
+<plugin id="ch.qos.logback.core" version="1.0.0.v20111214-2030"/>
+<plugin id="org.apache.geronimo.bundles.commons-httpclient" version="3.1.0.1"/>
+<plugin id="org.apache.commons.io.source" version="2.0.1.v201105210651"/>
+<plugin id="org.eclipse.core.filesystem.source"/>
+<plugin id="org.apache.felix.metatype" version="1.0.4"/>
+<plugin id="javax.servlet.jsp.source" version="2.2.0.v201112011158"/>
+<plugin id="org.eclipse.ltk.core.refactoring.source"/>
+<plugin id="org.eclipse.equinox.servletbridge.source"/>
+<plugin id="org.eclipse.equinox.app.source" version="1.3.100.v20120522-1841"/>
+<plugin id="org.eclipse.e4.ui.workbench.renderers.swt.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.mylyn.context.core"/>
+<plugin id="org.eclipse.equinox.security.macosx" version="1.100.200.v20120522-2049"/>
+<plugin id="org.w3c.css.sac.source" version="1.3.1.v200903091627"/>
+<plugin id="org.w3c.dom.smil.source" version="1.0.0.v200806040011"/>
+<plugin id="org.eclipse.wst.common.infopop"/>
+<plugin id="org.eclipse.mylyn.monitor.ui"/>
+<plugin id="org.eclipse.e4.ui.widgets.source" version="0.12.0.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.p2.updatesite.source" version="1.0.400.v20120412-1615"/>
+<plugin id="org.eclipse.equinox.p2.extensionlocation.source" version="1.2.100.v20110808-1657"/>
+<plugin id="org.eclipse.team.cvs.ssh2"/>
+<plugin id="org.eclipse.m2e.editor.xml"/>
+<plugin id="org.eclipse.jface.source" version="3.8.0.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.launcher.cocoa.macosx.x86_64" version="1.1.200.v20120522-1813"/>
+<plugin id="javax.inject" version="1.0.0.v20091030"/>
+<plugin id="org.eclipse.e4.ui.workbench3.source" version="0.12.0.v20120521-2329"/>
+<plugin id="com.google.gwt.servlet"/>
+<plugin id="org.eclipse.pde.launching"/>
+<plugin id="org.eclipse.ui.ide.application"/>
+<plugin id="org.eclipse.emf.mwe2.lib"/>
+<plugin id="org.eclipse.emf.ecore.change" version="2.8.0.v20120606-0717"/>
+<plugin id="javax.xml" version="1.3.4.v201005080400"/>
+<plugin id="org.eclipse.ui.workbench.source" version="3.103.0.v20120530-1824"/>
+<plugin id="org.eclipse.jdt.apt.ui"/>
+<plugin id="org.eclipse.ui.navigator.resources.source"/>
+<plugin id="org.apache.batik.util.source" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.equinox.p2.publisher.eclipse" version="1.1.0.v20120511-1931"/>
+<plugin id="org.eclipse.equinox.weaving.aspectj"/>
+<plugin id="org.eclipse.equinox.p2.touchpoint.eclipse.source" version="2.1.100.v20120428-0117"/>
+<plugin id="org.eclipse.equinox.log.source" version="1.2.300.v20120522-2049"/>
+<plugin id="javax.annotation" version="1.0.0.v20101115-0725"/>
+<plugin id="org.eclipse.emf.ecore.xmi" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.mylyn.builds.ui"/>
+<plugin id="org.eclipse.e4.core.commands.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.ant.launching"/>
+<plugin id="org.eclipse.core.resources.source"/>
+<plugin id="org.eclipse.emf.databinding.source"/>
+<plugin id="com.google.gwtorm"/>
+<plugin id="org.eclipse.ltk.ui.refactoring"/>
+<plugin id="org.eclipse.emf.mwe2.language"/>
+<plugin id="org.eclipse.jdt.apt.core.source"/>
+<plugin id="org.eclipse.e4.ui.css.swt.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.e4.ui.di.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.help.base"/>
+<plugin id="org.apache.sling.bundleresource.impl"/>
+<plugin id="org.eclipse.equinox.event.source" version="1.2.200.v20120522-2049"/>
+<plugin id="org.apache.felix.gogo.runtime.source" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.e4.core.di.extensions.source" version="0.11.0.v20120523-2004"/>
+<plugin id="org.eclipse.emf.common" version="2.8.0.v20120606-0717"/>
+<plugin id="org.apache.sling.jcr.base"/>
+<plugin id="com.sun.el"/>
+<plugin id="org.eclipse.equinox.bidi.source" version="0.9.0.v20120522-1841"/>
+<plugin id="org.eclipse.equinox.p2.ui" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.equinox.concurrent" version="1.0.300.v20120522-2049"/>
+<plugin id="javax.el.source" version="2.2.0.v201108011116"/>
+<plugin id="org.eclipse.equinox.jsp.jasper.source" version="1.0.400.v20120522-2049"/>
+<plugin id="org.junit" version="3.8.2.v3_8_2_v20100427-1100"/>
+<plugin id="org.eclipse.equinox.concurrent.source" version="1.0.300.v20120522-2049"/>
+<plugin id="log4j" version="1.2.17"/>
+<plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<plugin id="org.eclipse.mylyn.ide.ui"/>
+<plugin id="org.eclipse.equinox.p2.metadata" version="2.1.0.v20120430-2001"/>
+<plugin id="org.apache.xml.resolver"/>
+<plugin id="org.eclipse.jdt.launching.macosx.source"/>
+<plugin id="org.eclipse.ui.intro.source"/>
+<plugin id="org.eclipse.core.commands" version="3.6.1.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.p2.touchpoint.eclipse.source" version="2.1.100.v20120428-0117"/>
+<plugin id="org.eclipse.core.externaltools.source"/>
+<plugin id="org.eclipse.emf.edit.ui.source"/>
+<plugin id="org.apache.batik.css.source" version="1.6.0.v201011041432"/>
+<plugin id="com.google.gson"/>
+<plugin id="org.apache.sling.commons.logservice" version="1.0.0"/>
+<plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<plugin id="org.eclipse.ui.cheatsheets"/>
+<plugin id="org.eclipse.ui.navigator.source"/>
+<plugin id="org.eclipse.equinox.supplement.source" version="1.4.100.v20120522-1813"/>
+<plugin id="org.eclipse.equinox.http.servlet" version="1.1.300.v20120522-1841"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.source" version="3.2.0.v20120608-0148"/>
+<plugin id="org.eclipse.e4.ui.workbench.swt" version="0.10.1.v20120525-2014"/>
+<plugin id="org.eclipse.wst.common.project.facet.core"/>
+<plugin id="org.eclipse.e4.ui.workbench.renderers.swt" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.p2.ui.sdk.scheduler.source" version="1.1.0.v20110815-1744"/>
+<plugin id="org.eclipse.equinox.p2.jarprocessor.source" version="1.0.200.v20110808-1657"/>
+<plugin id="org.apache.log4j" version="1.2.15.v201012070815"/>
+<plugin id="org.eclipse.equinox.p2.ql.source" version="2.0.100.v20110808-1657"/>
+<plugin id="org.apache.lucene.core" version="3.5.0.v20120319-2345"/>
+<plugin id="org.apache.sling.scripting.api" version="2.1.4"/>
+<plugin id="org.eclipse.ui.source" version="3.103.0.v20120521-2329"/>
+<plugin id="org.apache.log4j.source" version="1.2.15.v201012070815"/>
+<plugin id="org.eclipse.equinox.p2.engine" version="2.2.0.v20120501-1502"/>
+<plugin id="org.eclipse.jdt.ui"/>
+<plugin id="org.eclipse.equinox.p2.updatesite.source" version="1.0.400.v20120412-1615"/>
+<plugin id="org.eclipse.rap.ui.templates"/>
+<plugin id="org.apache.commons.logging.source" version="1.1.1.v201101211721"/>
+<plugin id="org.eclipse.equinox.p2.transport.ecf" version="1.0.100.v20120305-0333"/>
+<plugin id="org.eclipse.jface" version="3.8.0.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.http.registry" version="1.1.200.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.console.ssh.source"/>
+<plugin id="org.eclipse.core.externaltools"/>
+<plugin id="org.eclipse.e4.core.contexts.source" version="1.1.0.v20120523-2004"/>
+<plugin id="org.eclipse.mylyn.wikitext.twiki.core"/>
+<plugin id="org.eclipse.mylyn.git.ui.source"/>
+<plugin id="org.eclipse.recommenders.completion.rcp.e38"/>
+<plugin id="org.apache.sling.commons.logservice" version="1.0.0"/>
+<plugin id="org.eclipse.equinox.preferences.source" version="3.5.0.v20120522-1841"/>
+<plugin id="org.apache.commons.codec.source" version="1.3.0.v201101211617"/>
+<plugin id="org.eclipse.core.expressions" version="3.4.400.v20120523-2004"/>
+<plugin id="org.eclipse.ui.navigator.resources"/>
+<plugin id="org.eclipse.equinox.jsp.jasper.registry.source" version="1.0.300.v20120522-2049"/>
+<plugin id="org.eclipse.mylyn.versions.core.source"/>
+<plugin id="org.eclipse.e4.core.contexts.source" version="1.1.0.v20120523-2004"/>
+<plugin id="org.eclipse.equinox.p2.ui.sdk" version="1.0.200.v20120515-1650"/>
+<plugin id="org.apache.sling.fragment.xml" version="1.0.0"/>
+<plugin id="org.apache.ws.commons.util"/>
+<plugin id="org.eclipse.emf.ecore.change" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.equinox.p2.garbagecollector" version="1.0.200.v20110808-1657"/>
+<plugin id="org.eclipse.emf.ecore.xcore.importer.source"/>
+<plugin id="org.eclipse.emf.ant"/>
+<plugin id="org.eclipse.rcp.source"/>
+<plugin id="org.eclipse.equinox.util.source" version="1.0.400.v20120522-2049"/>
+<plugin id="org.eclipse.ui.browser" version="3.4.0.v20120521-2329"/>
+<plugin id="org.eclipse.mylyn.commons.core"/>
+<plugin id="org.eclipse.mylyn.commons.repositories.ui.source"/>
+<plugin id="org.eclipse.emf.edit"/>
+<plugin id="org.hamcrest.core" version="1.1.0.v20090501071000"/>
+<plugin id="javax.servlet.jsp" version="2.2.0.v201112011158"/>
+<plugin id="ch.qos.logback.core" version="1.0.0.v20111214-2030"/>
+<plugin id="org.hamcrest.library.source" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.jdt.core.source"/>
+<plugin id="org.sat4j.core" version="2.3.0.v20110329"/>
+<plugin id="org.eclipse.jetty.servlet" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.equinox.p2.ui.sdk" version="1.0.200.v20120515-1650"/>
+<plugin id="com.google.gerrit.common.source"/>
+<plugin id="org.apache.sling.event"/>
+<plugin id="org.eclipse.mylyn.versions.core"/>
+<plugin id="org.apache.felix.javax.servlet" version="1.0.0"/>
+<plugin id="com.google.gerrit.prettify.source"/>
+<plugin id="org.eclipse.ui.externaltools.source"/>
+<plugin id="org.eclipse.jetty.continuation.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.jdt.launching.source"/>
+<plugin id="org.apache.sling.scripting.api" version="2.1.4"/>
+<plugin id="org.apache.sling.auth.form"/>
+<plugin id="org.eclipse.recommenders.completion.rcp.calls"/>
+<plugin id="org.eclipse.xtext.xbase.source"/>
+<plugin id="org.eclipse.mylyn.team.ui"/>
+<plugin id="org.eclipse.equinox.p2.ui.importexport" version="1.0.1.v20110818-1344"/>
+<plugin id="org.apache.commons.io" version="1.4"/>
+<plugin id="org.eclipse.equinox.weaving.aspectj.source"/>
+<plugin id="org.eclipse.mylyn.bugzilla.ui"/>
+<plugin id="org.apache.sling.commons.mime"/>
+<plugin id="org.eclipse.core.variables" version="3.2.600.v20120521-2012"/>
+<plugin id="org.eclipse.search"/>
+<plugin id="org.eclipse.equinox.p2.ui.discovery" version="1.0.0.v20110808-1657"/>
+<plugin id="org.eclipse.ui.editors"/>
+<plugin id="org.apache.sling.commons.log" version="3.0.0"/>
+<plugin id="org.eclipse.emf.ecore.edit.source"/>
+<plugin id="org.eclipse.equinox.ds.source" version="1.4.0.v20120522-1841"/>
+<plugin id="org.eclipse.osgi" version="3.8.0.v20120529-1548"/>
+<plugin id="org.apache.sling.commons.classloader" version="1.3.0"/>
+<plugin id="org.eclipse.pde.ua.core"/>
+<plugin id="org.eclipse.equinox.servletbridge"/>
+<plugin id="org.eclipse.mylyn.wikitext.tasks.ui.source"/>
+<plugin id="javax.servlet.source" version="3.0.0.v201112011016"/>
+<plugin id="org.eclipse.m2e.model.edit"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer" version="3.2.0.v20120608-0148"/>
+<plugin id="org.eclipse.debug.core"/>
+<plugin id="org.eclipse.mylyn.reviews.core.source"/>
+<plugin id="org.eclipse.jetty.http.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.mylyn.wikitext.twiki.core.source"/>
+<plugin id="org.eclipse.wst.dtd.core"/>
+<plugin id="org.eclipse.equinox.app.source" version="1.3.100.v20120522-1841"/>
+<plugin id="org.eclipse.core.databinding.source" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.mylyn.git.ui"/>
+<plugin id="org.eclipse.ecf.identity.source" version="3.1.200.v20120608-0148"/>
+<plugin id="org.apache.felix.webconsole.plugins.event"/>
+<plugin id="org.apache.commons.httpclient" version="3.1.0.v201012070820"/>
+<plugin id="org.eclipse.emf.common" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.xtext.xbase"/>
+<plugin id="slf4j.log4j12" version="1.6.6"/>
+<plugin id="org.eclipse.emf.converter"/>
+<plugin id="org.apache.sling.extensions.groovy"/>
+<plugin id="org.eclipse.ui.net"/>
+<plugin id="org.eclipse.jetty.http" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.equinox.p2.jarprocessor.source" version="1.0.200.v20110808-1657"/>
+<plugin id="org.eclipse.e4.ui.css.core" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.aries.jmx.whiteboard"/>
+<plugin id="org.apache.sling.servlets.resolver"/>
+<plugin id="org.eclipse.equinox.p2.garbagecollector.source" version="1.0.200.v20110808-1657"/>
+<plugin id="org.eclipse.equinox.p2.ui.sdk.scheduler" version="1.1.0.v20110815-1744"/>
+<plugin id="org.eclipse.emf.common" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.equinox.p2.operations" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.xtext.common.types.ui.source"/>
+<plugin id="org.eclipse.recommenders.jayes"/>
+<plugin id="org.eclipse.mylyn.commons.xmlrpc.source"/>
+<plugin id="org.eclipse.xtext.smap"/>
+<plugin id="org.eclipse.core.databinding.observable" version="1.4.1.v20120521-2329"/>
+<plugin id="org.osgi.compendium" version="4"/>
+<plugin id="org.apache.sling.fragment.activation" version="1.0.0"/>
+<plugin id="org.eclipse.mylyn.hudson.core"/>
+<plugin id="org.eclipse.mylyn.reviews.ui.source"/>
+<plugin id="org.eclipse.ui.forms.source" version="3.5.200.v20120521-2329"/>
+<plugin id="org.eclipse.e4.core.services.source" version="1.0.0.v20120521-2346"/>
+<plugin id="org.apache.felix.gogo.runtime.source" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.equinox.transforms.xslt.source"/>
+<plugin id="org.apache.lucene.core" version="2.9.1.v201101211721"/>
+<plugin id="org.eclipse.jdt.apt.core"/>
+<plugin id="org.eclipse.equinox.p2.engine.source" version="2.2.0.v20120501-1502"/>
+<plugin id="org.hamcrest.integration.source" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.pde.ui.templates"/>
+<plugin id="org.eclipse.ltk.core.refactoring"/>
+<plugin id="org.apache.log4j.source" version="1.2.15.v201012070815"/>
+<plugin id="org.eclipse.team.cvs.ui"/>
+<plugin id="org.eclipse.jdt.core"/>
+<plugin id="org.eclipse.equinox.event" version="1.2.200.v20120522-2049"/>
+<plugin id="org.apache.sling.installer.provider.jcr"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.httpclient" version="4.0.200.v20120608-0148"/>
+<plugin id="org.apache.sling.commons.threads"/>
+<plugin id="org.eclipse.emf.ecore.xcore.exporter.source"/>
+<plugin id="org.eclipse.pde.core.source"/>
+<plugin id="org.eclipse.equinox.useradmin.source"/>
+<plugin id="org.eclipse.e4.core.contexts" version="1.1.0.v20120523-2004"/>
+<plugin id="org.apache.mina.core"/>
+<plugin id="org.eclipse.equinox.p2.director.source" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.core.jobs.source" version="3.5.200.v20120521-2346"/>
+<plugin id="org.apache.commons.logging.source" version="1.1.1.v201101211721"/>
+<plugin id="org.eclipse.jetty.servlet" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.equinox.registry" version="3.5.200.v20120522-1841"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.httpclient.ssl" version="1.0.0.v20120608-0148"/>
+<plugin id="com.jcraft.jsch"/>
+<plugin id="org.eclipse.equinox.frameworkadmin" version="2.0.100.v20120606-175127"/>
+<plugin id="org.eclipse.core.filebuffers.source"/>
+<plugin id="org.eclipse.equinox.ds" version="1.4.0.v20120522-1841"/>
+<plugin id="org.eclipse.mylyn.java.ui"/>
+<plugin id="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.source"/>
+<plugin id="org.eclipse.mylyn.discovery.core.source"/>
+<plugin id="org.eclipse.help.source" version="3.6.0.v20120521-2344"/>
+<plugin id="javax.xml" version="1.3.4.v201005080400"/>
+<plugin id="org.eclipse.emf.common.ui"/>
+<plugin id="com.ibm.icu.source" version="4.4.2.v20110823"/>
+<plugin id="org.eclipse.wb.rcp.databinding"/>
+<plugin id="org.eclipse.equinox.device.source"/>
+<plugin id="org.eclipse.equinox.http.servlet" version="1.1.300.v20120522-1841"/>
+<plugin id="org.eclipse.jetty.security" version="8.1.3.v20120522"/>
+<plugin id="javax.jcr"/>
+<plugin id="org.eclipse.equinox.p2.discovery" version="1.0.200.v20120524-1717"/>
+<plugin id="org.w3c.dom.svg.source" version="1.1.0.v201011041433"/>
+<plugin id="javax.annotation" version="1.0.0.v20101115-0725"/>
+<plugin id="org.eclipse.xtext.common.types.edit"/>
+<plugin id="org.apache.felix.gogo.runtime" version="0.8.0.v201108120515"/>
+<plugin id="ch.qos.logback.core" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.mylyn.monitor.core"/>
+<plugin id="org.eclipse.equinox.frameworkadmin.equinox" version="1.0.400.v20120428-0117"/>
+<plugin id="org.eclipse.e4.ui.workbench.renderers.swt.cocoa"/>
+<plugin id="org.eclipse.jface.databinding" version="1.6.0.v20120521-2329"/>
+<plugin id="org.eclipse.help" version="3.6.0.v20120521-2344"/>
+<plugin id="org.apache.sling.jcr.contentloader"/>
+<plugin id="org.eclipse.mylyn.pde.ui"/>
+<plugin id="org.eclipse.emf.ecore.xcore.exporter"/>
+<plugin id="org.eclipse.egit.mylyn.ui"/>
+<plugin id="org.eclipse.wst.common.frameworks"/>
+<plugin id="org.eclipse.core.runtime.source" version="3.8.0.v20120521-2346"/>
+<plugin id="org.eclipse.jdt.compiler.apt.source"/>
+<plugin id="org.junit.source" version="3.8.2.v3_8_2_v20100427-1100"/>
+<plugin id="org.eclipse.equinox.p2.director" version="2.2.0.v20120524-0542"/>
+<plugin id="org.apache.sling.auth.openid"/>
+<plugin id="osgi.compendium" version="4.1.0.build-200702212030"/>
+<plugin id="org.eclipse.equinox.p2.console.source" version="1.0.300.v20120429-0125"/>
+<plugin id="org.eclipse.equinox.launcher" version="1.3.0.v20120522-1813"/>
+<plugin id="org.apache.commons.logging.source" version="1.1.1.v201101211721"/>
+<plugin id="org.eclipse.wb.swt.widgets.baseline"/>
+<plugin id="org.apache.commons.io.source" version="2.0.1.v201105210651"/>
+<plugin id="org.eclipse.equinox.registry.source" version="3.5.200.v20120522-1841"/>
+<plugin id="org.eclipse.e4.core.commands" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.recommenders.completion.rcp.chain"/>
+<plugin id="org.eclipse.equinox.http.jetty" version="3.0.0.v20120522-1841"/>
+<plugin id="org.eclipse.egit.import"/>
+<plugin id="org.sat4j.pb" version="2.3.0.v20110329"/>
+<plugin id="org.eclipse.core.filesystem"/>
+<plugin id="org.eclipse.jsch.core"/>
+<plugin id="org.apache.jackrabbit.jackrabbit-jcr-rmi"/>
+<plugin id="org.eclipse.draw2d.source"/>
+<plugin id="org.objectweb.asm.source"/>
+<plugin id="org.eclipse.equinox.http.jetty.source" version="3.0.0.v20120522-1841"/>
+<plugin id="org.eclipse.emf.databinding.edit.source"/>
+<plugin id="org.eclipse.ui.net.source"/>
+<plugin id="org.apache.sshd.core.source"/>
+<plugin id="org.eclipse.emf.mwe.core"/>
+<plugin id="org.eclipse.ui.intro.universal.source"/>
+<plugin id="org.eclipse.pde.ui.templates.source"/>
+<plugin id="org.eclipse.emf.codegen.source"/>
+<plugin id="org.eclipse.equinox.io"/>
+<plugin id="org.eclipse.equinox.p2.transport.ecf.source" version="1.0.100.v20120305-0333"/>
+<plugin id="org.eclipse.emf.ecore.change.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.mylyn.commons.notifications.feed.source"/>
+<plugin id="org.eclipse.mylyn.commons.notifications.core"/>
+<plugin id="org.eclipse.mylyn.hudson.core.source"/>
+<plugin id="org.eclipse.emf.mwe.core.source"/>
+<plugin id="org.eclipse.wst.xml.ui"/>
+<plugin id="org.apache.sling.servlets.get"/>
+<plugin id="ch.qos.logback.slf4j" version="1.0.0.v20120123-1500"/>
+<plugin id="org.eclipse.e4.ui.di" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.mylyn.tasks.index.ui.source"/>
+<plugin id="org.w3c.dom.svg" version="1.1.0.v201011041433"/>
+<plugin id="org.eclipse.mylyn.help.ui.source"/>
+<plugin id="org.apache.httpcomponents.httpclient"/>
+<plugin id="org.eclipse.emf.importer.ecore.source"/>
+<plugin id="org.eclipse.osgi.services" version="3.3.100.v20120522-1822"/>
+<plugin id="org.eclipse.e4.core.contexts.source" version="1.1.0.v20120523-2004"/>
+<plugin id="org.eclipse.equinox.app" version="1.3.100.v20120522-1841"/>
+<plugin id="org.eclipse.core.runtime" version="3.8.0.v20120521-2346"/>
+<plugin id="org.eclipse.emf.importer.source"/>
+<plugin id="org.eclipse.wb.core.ui"/>
+<plugin id="org.eclipse.core.databinding.observable" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.security.ui" version="1.1.100.v20120522-2049"/>
+<plugin id="org.junit.source" version="4.10.0.v4_10_0_v20120426-0900"/>
+<plugin id="org.eclipse.emf.common.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.apache.jasper.glassfish.source" version="2.2.2.v201205150955"/>
+<plugin id="org.eclipse.equinox.supplement.source" version="1.4.100.v20120522-1813"/>
+<plugin id="org.apache.sling.extensions.explorer"/>
+<plugin id="org.eclipse.equinox.coordinator.source"/>
+<plugin id="javax.servlet" version="3.0.0.v201112011016"/>
+<plugin id="org.eclipse.equinox.p2.reconciler.dropins" version="1.1.200.v20120301-2145"/>
+<plugin id="org.eclipse.e4.ui.services" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.p2.touchpoint.eclipse" version="2.1.100.v20120428-0117"/>
+<plugin id="org.eclipse.osgi.source" version="3.8.0.v20120529-1548"/>
+<plugin id="org.eclipse.core.contenttype" version="3.4.200.v20120523-2004"/>
+<plugin id="org.eclipse.jface.source" version="3.8.0.v20120521-2329"/>
+<plugin id="org.eclipse.emf.importer.rose"/>
+<plugin id="org.eclipse.equinox.util.source" version="1.0.400.v20120522-2049"/>
+<plugin id="org.eclipse.core.jobs" version="3.5.200.v20120521-2346"/>
+<plugin id="org.eclipse.e4.ui.workbench3" version="0.12.0.v20120521-2329"/>
+<plugin id="org.apache.lucene" version="2.9.1.v201101211721"/>
+<plugin id="org.slf4j.api" version="1.6.4.v20120130-2120"/>
+<plugin id="javax.el.source" version="2.2.0.v201108011116"/>
+<plugin id="org.eclipse.osgi.util.source" version="3.2.300.v20120522-1822"/>
+<plugin id="org.eclipse.equinox.p2.garbagecollector.source" version="1.0.200.v20110808-1657"/>
+<plugin id="org.eclipse.xtext.ui.codetemplates.ui"/>
+<plugin id="org.eclipse.e4.core.commands.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.mylyn.wikitext.tracwiki.ui"/>
+<plugin id="org.eclipse.mylyn.wikitext.twiki.ui.source"/>
+<plugin id="org.apache.commons.pool.source" version="1.6.0.v201204271246"/>
+<plugin id="org.eclipse.xtext.ui.source"/>
+<plugin id="org.apache.lucene" version="3.5.0.v20120319-2345"/>
+<plugin id="org.eclipse.platform"/>
+<plugin id="org.eclipse.mylyn.bugzilla.ide.source"/>
+<plugin id="org.eclipse.equinox.p2.garbagecollector" version="1.0.200.v20110808-1657"/>
+<plugin id="org.w3c.dom.svg.source" version="1.1.0.v201011041433"/>
+<plugin id="org.eclipse.ui.cheatsheets.source"/>
+<plugin id="org.eclipse.mylyn.resources.ui.source"/>
+<plugin id="org.eclipse.recommenders.utils.rcp"/>
+<plugin id="org.eclipse.emf.mwe2.launch"/>
+<plugin id="org.eclipse.equinox.app.source" version="1.3.100.v20120522-1841"/>
+<plugin id="org.eclipse.equinox.p2.reconciler.dropins" version="1.1.200.v20120301-2145"/>
+<plugin id="org.eclipse.team.ui"/>
+<plugin id="org.eclipse.equinox.wireadmin.source"/>
+<plugin id="org.apache.sling.api" version="2.2.5.SNAPSHOT"/>
+<plugin id="org.eclipse.e4.ui.widgets.source" version="0.12.0.v20120523-1955"/>
+<plugin id="org.eclipse.core.contenttype.source" version="3.4.200.v20120523-2004"/>
+<plugin id="org.eclipse.equinox.p2.metadata.source" version="2.1.0.v20120430-2001"/>
+<plugin id="org.eclipse.e4.ui.workbench3.source" version="0.12.0.v20120521-2329"/>
+<plugin id="com.google.inject"/>
+<plugin id="org.eclipse.equinox.p2.reconciler.dropins.source" version="1.1.200.v20120301-2145"/>
+<plugin id="org.eclipse.xtext.source"/>
+<plugin id="org.eclipse.mylyn.bugzilla.core"/>
+<plugin id="org.eclipse.jdt.compiler.tool"/>
+<plugin id="org.eclipse.ui.externaltools"/>
+<plugin id="org.eclipse.ecf.ssl" version="1.0.100.v20120608-0148"/>
+<plugin id="org.apache.sling.scripting.jsp" version="2.0.24"/>
+<plugin id="org.eclipse.mylyn.wikitext.mediawiki.core.source"/>
+<plugin id="org.eclipse.help" version="3.6.0.v20120521-2344"/>
+<plugin id="org.eclipse.rap.ui.launch"/>
+<plugin id="org.eclipse.pde.ds.ui.source"/>
+<plugin id="org.eclipse.core.commands" version="3.6.1.v20120521-2329"/>
+<plugin id="org.apache.sling.api" version="2.2.5.SNAPSHOT"/>
+<plugin id="org.w3c.dom.smil.source" version="1.0.0.v200806040011"/>
+<plugin id="org.apache.sshd.core"/>
+<plugin id="org.apache.sling.commons.logservice" version="1.0.0"/>
+<plugin id="org.eclipse.emf.ecore.xcore"/>
+<plugin id="org.eclipse.jetty.continuation" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.gemini.blueprint.test"/>
+<plugin id="org.eclipse.e4.ui.workbench.swt.source" version="0.10.1.v20120525-2014"/>
+<plugin id="org.eclipse.epp.mpc.help.ui"/>
+<plugin id="javax.inject.source" version="1.0.0.v20091030"/>
+<plugin id="org.eclipse.mylyn.commons.repositories.http.core"/>
+<plugin id="org.eclipse.e4.ui.workbench3" version="0.12.0.v20120521-2329"/>
+<plugin id="org.eclipse.rap.help"/>
+<plugin id="org.apache.sling.jcr.jackrabbit.usermanager"/>
+<plugin id="org.apache.sling.commons.log" version="3.0.0"/>
+<plugin id="org.w3c.dom.svg" version="1.1.0.v201011041433"/>
+<plugin id="org.eclipse.xtext.util.source"/>
+<plugin id="javax.el.source" version="2.2.0.v201108011116"/>
+<plugin id="org.eclipse.xtext.common.types.source"/>
+<plugin id="org.apache.jackrabbit.jackrabbit-jcr-server"/>
+<plugin id="org.eclipse.equinox.http.jetty.source" version="3.0.0.v20120522-1841"/>
+<plugin id="log4j.over.slf4j" version="1.6.4"/>
+<plugin id="org.eclipse.equinox.frameworkadmin.equinox.source" version="1.0.400.v20120428-0117"/>
+<plugin id="org.eclipse.mylyn.ide.ui.source"/>
+<plugin id="org.eclipse.e4.ui.workbench.source" version="0.10.2.v20120531-1742"/>
+<plugin id="org.eclipse.ecf" version="3.1.300.v20120608-0148"/>
+<plugin id="org.eclipse.wst.xmleditor.doc.user"/>
+<plugin id="com.sun.xml.bind.source"/>
+<plugin id="com.sun.xml.bind"/>
+<plugin id="org.apache.sling.jcr.resource"/>
+<plugin id="org.eclipse.equinox.bidi.source" version="0.9.0.v20120522-1841"/>
+<plugin id="org.eclipse.cvs.source"/>
+<plugin id="org.eclipse.rap.ui.intro.source"/>
+<plugin id="org.apache.sling.fragment.xml" version="1.0.0"/>
+<plugin id="org.eclipse.recommenders.completion.rcp"/>
+<plugin id="org.eclipse.jdt.launching.macosx"/>
+<plugin id="org.eclipse.emf.ecore.editor"/>
+<plugin id="org.eclipse.help.ui"/>
+<plugin id="org.eclipse.equinox.preferences" version="3.5.0.v20120522-1841"/>
+<plugin id="org.eclipse.m2e.discovery"/>
+<plugin id="org.eclipse.mylyn.team.ui.source"/>
+<plugin id="org.eclipse.xtext.generator"/>
+<plugin id="org.eclipse.mylyn.commons.repositories.http.core.source"/>
+<plugin id="org.eclipse.mylyn.commons.identity"/>
+<plugin id="org.eclipse.emf.ecore.xcore.edit"/>
+<plugin id="org.apache.felix.javax.servlet" version="1.0.0"/>
+<plugin id="org.eclipse.swt" version="3.100.0.v4233d"/>
+<plugin id="org.eclipse.mylyn.commons.workbench"/>
+<plugin id="org.w3c.dom.smil.source" version="1.0.0.v200806040011"/>
+<plugin id="org.eclipse.e4.ui.bindings" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.commons.cli.source"/>
+<plugin id="org.eclipse.core.runtime.source" version="3.8.0.v20120521-2346"/>
+<plugin id="org.eclipse.epp.mpc.ui.source"/>
+<plugin id="org.eclipse.equinox.p2.repository" version="2.2.0.v20120524-1945"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.httpclient.source" version="4.0.200.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.p2.ui.source" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.core.databinding.source" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.common.source" version="3.6.100.v20120522-1841"/>
+<plugin id="org.apache.commons.httpclient" version="3.1.0.v201012070820"/>
+<plugin id="org.eclipse.wb.discovery.core"/>
+<plugin id="org.eclipse.e4.ui.bindings" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.e4.ui.widgets" version="0.12.0.v20120523-1955"/>
+<plugin id="org.eclipse.wst.common.core"/>
+<plugin id="org.hamcrest.library.source" version="1.1.0.v20090501071000"/>
+<plugin id="org.apache.sling.auth.selector"/>
+<plugin id="org.eclipse.emf.mwe2.language.source"/>
+<plugin id="org.eclipse.equinox.p2.repository.tools" version="2.0.100.v20120501-1314"/>
+<plugin id="org.eclipse.jdt.ui.source"/>
+<plugin id="org.eclipse.rap.ui.templates.source"/>
+<plugin id="org.apache.commons.lang" version="2.5"/>
+<plugin id="org.eclipse.jetty.webapp.source"/>
+<plugin id="org.eclipse.mylyn.monitor.ui.source"/>
+<plugin id="org.eclipse.equinox.p2.engine" version="2.2.0.v20120501-1502"/>
+<plugin id="org.apache.lucene.analysis"/>
+<plugin id="org.eclipse.e4.core.di" version="1.1.0.v20120521-2346"/>
+<plugin id="com.google.guava.source"/>
+<plugin id="javax.xml.stream" version="1.0.1.v201004272200"/>
+<plugin id="org.eclipse.emf.codegen.ecore.xtext.ui.source"/>
+<plugin id="org.eclipse.jetty.util.source" version="8.1.3.v20120522"/>
+<plugin id="ch.qos.logback.slf4j.source" version="1.0.0.v20120123-1500"/>
+<plugin id="org.eclipse.mylyn.wikitext.textile.ui.source"/>
+<plugin id="org.eclipse.equinox.p2.console" version="1.0.300.v20120429-0125"/>
+<plugin id="com.google.gerrit.reviewdb.source"/>
+<plugin id="org.eclipse.e4.core.di.source" version="1.1.0.v20120521-2346"/>
+<plugin id="org.eclipse.core.expressions.source" version="3.4.400.v20120523-2004"/>
+<plugin id="org.eclipse.equinox.util" version="1.0.400.v20120522-2049"/>
+<plugin id="org.eclipse.osgi.util.source" version="3.2.300.v20120522-1822"/>
+<plugin id="org.eclipse.equinox.simpleconfigurator.manipulator" version="2.0.0.v20110808-1657"/>
+<plugin id="org.eclipse.osgi.services.source" version="3.3.100.v20120522-1822"/>
+<plugin id="org.eclipse.xtend.typesystem.emf"/>
+<plugin id="org.eclipse.jetty.server" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.recommenders.utils"/>
+<plugin id="org.eclipse.emf.ecore.xcore.importer"/>
+<plugin id="com.ibm.icu" version="4.4.2.v20110823"/>
+<plugin id="org.eclipse.xsd.edit.source"/>
+<plugin id="org.eclipse.equinox.p2.extensionlocation" version="1.2.100.v20110808-1657"/>
+<plugin id="org.eclipse.equinox.security.ui.source" version="1.1.100.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.p2.publisher.source" version="1.2.0.v20120428-0117"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.ssl" version="1.0.0.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.p2.ui.sdk.source" version="1.0.200.v20120515-1650"/>
+<plugin id="org.apache.felix.eventadmin" version="1.2.14"/>
+<plugin id="javax.servlet.source" version="3.0.0.v201112011016"/>
+<plugin id="org.eclipse.jem.util"/>
+<plugin id="org.eclipse.emf.ecore.xmi" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.jsch.ui.source"/>
+<plugin id="org.apache.felix.gogo.command" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.equinox.security.macosx.source" version="1.100.200.v20120522-2049"/>
+<plugin id="org.eclipse.xtext.util"/>
+<plugin id="org.junit" version="4.10.0.v4_10_0_v20120426-0900"/>
+<plugin id="org.eclipse.emf.codegen.ecore.xtext.ui"/>
+<plugin id="org.eclipse.e4.ui.model.workbench.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.batik.util.gui.source" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.xtext.ui"/>
+<plugin id="org.eclipse.mylyn.commons.repositories.core"/>
+<plugin id="org.eclipse.swt.cocoa.macosx.x86_64.source"/>
+<plugin id="org.eclipse.core.databinding.property" version="1.4.100.v20120523-1955"/>
+<plugin id="org.eclipse.jdt.compiler.apt"/>
+<plugin id="org.eclipse.jetty.servlet.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.equinox.console.jaas.fragment.source"/>
+<plugin id="org.eclipse.emf.importer.ecore"/>
+<plugin id="org.eclipse.core.variables.source" version="3.2.600.v20120521-2012"/>
+<plugin id="org.apache.commons.logging" version="1.0.4.v201101211617"/>
+<plugin id="org.apache.sling.jcr.jackrabbit.accessmanager"/>
+<plugin id="org.eclipse.mylyn.commons.notifications.feed"/>
+<plugin id="org.apache.batik.css" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.equinox.preferences" version="3.5.0.v20120522-1841"/>
+<plugin id="org.eclipse.emf.mapping.ecore2xml"/>
+<plugin id="org.hamcrest.integration" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.ui" version="3.103.0.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.p2.ui.importexport.source" version="1.0.1.v20110818-1344"/>
+<plugin id="org.eclipse.xtext.xbase.ui.source"/>
+<plugin id="org.apache.batik.css" version="1.6.0.v201011041432"/>
+<plugin id="org.apache.felix.gogo.runtime" version="0.8.0.v201108120515"/>
+<plugin id="org.apache.httpcomponents.httpclient.source"/>
+<plugin id="org.eclipse.mylyn.team.cvs"/>
+<plugin id="org.eclipse.jdt.junit.core.source"/>
+<plugin id="org.springframework.expression"/>
+<plugin id="org.eclipse.ui" version="3.103.0.v20120521-2329"/>
+<plugin id="org.eclipse.wst.xsdeditor.doc.user"/>
+<plugin id="org.eclipse.emf.ecore.change.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.text"/>
+<plugin id="org.eclipse.e4.ui.css.swt" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.emf.ecore.xmi.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.equinox.p2.discovery" version="1.0.200.v20120524-1717"/>
+<plugin id="org.eclipse.xsd.source"/>
+<plugin id="org.eclipse.osgi.source" version="3.8.0.v20120529-1548"/>
+<plugin id="org.eclipse.equinox.p2.director.app" version="1.0.300.v20120428-0517"/>
+<plugin id="org.eclipse.wb.layout.group"/>
+<plugin id="org.apache.commons.io" version="1.4"/>
+<plugin id="org.apache.commons.fileupload"/>
+<plugin id="org.eclipse.mylyn.commons.repositories.core.source"/>
+<plugin id="org.eclipse.mylyn.git.core.source"/>
+<plugin id="org.eclipse.equinox.weaving.caching.j9.source"/>
+<plugin id="org.eclipse.emf.ecore.xcore.ui.source"/>
+<plugin id="org.eclipse.equinox.simpleconfigurator" version="1.0.300.v20110815-1744"/>
+<plugin id="org.eclipse.emf.codegen.ecore.ui.source"/>
+<plugin id="org.eclipse.equinox.console" version="1.0.0.v20120522-1841"/>
+<plugin id="org.eclipse.m2e.refactoring"/>
+<plugin id="org.eclipse.equinox.console.ssh"/>
+<plugin id="org.eclipse.ui.source" version="3.103.0.v20120521-2329"/>
+<plugin id="org.eclipse.ui" version="3.103.0.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.app" version="1.3.100.v20120522-1841"/>
+<plugin id="org.eclipse.recommenders.extdoc"/>
+<plugin id="org.eclipse.mylyn.gerrit.core"/>
+<plugin id="org.apache.jasper.glassfish" version="2.2.2.v201205150955"/>
+<plugin id="org.eclipse.xtext.ui.codetemplates.source"/>
+<plugin id="org.apache.sling.auth.core"/>
+<plugin id="org.apache.batik.util.gui.source" version="1.6.0.v201011041432"/>
+<plugin id="javax.servlet.jsp.source" version="2.2.0.v201112011158"/>
+<plugin id="org.eclipse.pde.api.tools.ui"/>
+<plugin id="org.eclipse.emf.ecore.editor.source"/>
+<plugin id="org.eclipse.e4.core.services" version="1.0.0.v20120521-2346"/>
+<plugin id="org.eclipse.ui.source" version="3.103.0.v20120521-2329"/>
+<plugin id="org.apache.sling.jcr.webconsole"/>
+<plugin id="org.eclipse.jetty.http.source" version="8.1.3.v20120522"/>
+<plugin id="org.mortbay.jetty.util"/>
+<plugin id="org.junit" version="4.10.0.v4_10_0_v20120426-0900"/>
+<plugin id="org.junit" version="3.8.2.v3_8_2_v20100427-1100"/>
+<plugin id="org.apache.felix.http.whiteboard"/>
+<plugin id="org.eclipse.wst.common.ui"/>
+<plugin id="org.jsoup.source"/>
+<plugin id="org.eclipse.core.databinding.source" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.pde.launching.source"/>
+<plugin id="ch.qos.logback.classic.source" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.help.source" version="3.6.0.v20120521-2344"/>
+<plugin id="org.apache.felix.webconsole"/>
+<plugin id="org.eclipse.equinox.p2.ui.admin"/>
+<plugin id="org.eclipse.debug.core.source"/>
+<plugin id="org.eclipse.equinox.p2.ui.sdk.source" version="1.0.200.v20120515-1650"/>
+<plugin id="org.eclipse.rcp"/>
+<plugin id="org.eclipse.debug.ui.source"/>
+<plugin id="org.eclipse.m2e.maven.indexer"/>
+<plugin id="javax.servlet" version="3.0.0.v201112011016"/>
+<plugin id="org.eclipse.ui.browser.source" version="3.4.0.v20120521-2329"/>
+<plugin id="org.eclipse.e4.ui.workbench" version="0.10.2.v20120531-1742"/>
+<plugin id="org.eclipse.e4.core.di.extensions" version="0.11.0.v20120523-2004"/>
+<plugin id="org.eclipse.equinox.util.source" version="1.0.400.v20120522-2049"/>
+<plugin id="org.eclipse.ui.workbench" version="3.103.0.v20120530-1824"/>
+<plugin id="org.eclipse.platform.doc.isv"/>
+<plugin id="org.eclipse.m2e.scm"/>
+<plugin id="org.eclipse.pde.doc.user"/>
+<plugin id="org.apache.felix.metatype" version="1.0.4"/>
+<plugin id="org.eclipse.core.databinding.observable" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.jdt"/>
+<plugin id="org.eclipse.emf.mwe2.lib.source"/>
+<plugin id="org.eclipse.xtend.lib"/>
+<plugin id="org.eclipse.mylyn.wikitext.mediawiki.ui"/>
+<plugin id="org.eclipse.equinox.servletbridge.extensionbundle" version="1.2.100.v20120522-2049"/>
+<plugin id="org.eclipse.mylyn.tasks.bugs"/>
+<plugin id="org.apache.sling.installer.factory.configuration"/>
+<plugin id="org.eclipse.emf.mapping.ecore2ecore.source"/>
+<plugin id="org.eclipse.jetty.security" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.jdt.annotation"/>
+<plugin id="org.eclipse.core.runtime.compatibility.registry.source"/>
+<plugin id="org.eclipse.equinox.supplement.source" version="1.4.100.v20120522-1813"/>
+<plugin id="org.eclipse.emf.ecore.xmi" version="2.8.0.v20120606-0717"/>
+<plugin id="org.hamcrest.generator.source"/>
+<plugin id="org.eclipse.mylyn.tasks.search"/>
+<plugin id="org.eclipse.e4.ui.css.swt" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.mylyn.commons.core.source"/>
+<plugin id="org.eclipse.ecf.filetransfer.source" version="5.0.0.v20120608-0148"/>
+<plugin id="org.jsoup"/>
+<plugin id="org.eclipse.epp.package.rcp"/>
+<plugin id="org.eclipse.equinox.transforms.hook"/>
+<plugin id="org.eclipse.ui.views.log.source"/>
+<plugin id="org.eclipse.emf.mapping.source"/>
+<plugin id="org.eclipse.ui.intro"/>
+<plugin id="org.eclipse.mylyn.discovery.ui.source"/>
+<plugin id="org.eclipse.equinox.p2.metadata.repository" version="1.2.100.v20120524-1717"/>
+<plugin id="org.eclipse.equinox.p2.publisher" version="1.2.0.v20120428-0117"/>
+<plugin id="org.eclipse.jdt.apt.pluggable.core.source"/>
+<plugin id="org.eclipse.wst.common.uriresolver"/>
+<plugin id="org.eclipse.jdt.junit.core"/>
+<plugin id="org.eclipse.mylyn.tasks.core.source"/>
+<plugin id="org.aopalliance" version="1.0.0.v201105210816"/>
+<plugin id="org.eclipse.equinox.p2.console.source" version="1.0.300.v20120429-0125"/>
+<plugin id="org.eclipse.equinox.p2.metadata.source" version="2.1.0.v20120430-2001"/>
+<plugin id="org.eclipse.ui.workbench.source" version="3.103.0.v20120530-1824"/>
+<plugin id="org.eclipse.equinox.jsp.jasper.registry" version="1.0.300.v20120522-2049"/>
+<plugin id="org.eclipse.recommenders.doc"/>
+<plugin id="org.eclipse.e4.ui.bindings.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.core.databinding.beans"/>
+<plugin id="org.eclipse.mylyn.discovery.ui"/>
+<plugin id="org.slf4j.api.source" version="1.6.4.v20120130-2120"/>
+<plugin id="com.sun.el.source"/>
+<plugin id="org.eclipse.emf.mapping.ecore2xml.ui"/>
+<plugin id="org.eclipse.xtend"/>
+<plugin id="org.eclipse.e4.ui.services" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.felix.scr" version="1.6.0"/>
+<plugin id="org.eclipse.mylyn.wikitext.tracwiki.core"/>
+<plugin id="org.eclipse.e4.ui.services.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.p2.ql.source" version="2.0.100.v20110808-1657"/>
+<plugin id="org.eclipse.wst.xsd.core"/>
+<plugin id="org.eclipse.mylyn.git.core"/>
+<plugin id="javax.activation"/>
+<plugin id="org.eclipse.ui.editors.source"/>
+<plugin id="org.eclipse.recommenders.aether"/>
+<plugin id="org.eclipse.emf.codegen.ui"/>
+<plugin id="org.apache.commons.collections"/>
+<plugin id="org.eclipse.recommenders.completion.rcp.subwords"/>
+<plugin id="org.apache.felix.gogo.command" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.equinox.p2.touchpoint.natives.source" version="1.1.0.v20120524-0542"/>
+<plugin id="org.eclipse.equinox.common" version="3.6.100.v20120522-1841"/>
+<plugin id="org.eclipse.egit.doc"/>
+<plugin id="org.osgi.core" version="4"/>
+<plugin id="org.apache.commons.logging" version="1.0.4.v201101211617"/>
+<plugin id="org.eclipse.wst.validation"/>
+<plugin id="org.eclipse.e4.ui.di" version="0.10.1.v20120523-1955"/>
+<plugin id="com.google.gwtjsonrpc"/>
+<plugin id="org.w3c.dom.svg" version="1.1.0.v201011041433"/>
+<plugin id="org.apache.commons.primitives"/>
+<plugin id="javax.servlet" version="3.0.0.v201112011016"/>
+<plugin id="org.eclipse.equinox.p2.ui.sdk.scheduler.source" version="1.1.0.v20110815-1744"/>
+<plugin id="org.eclipse.pde.junit.runtime.source"/>
+<plugin id="org.eclipse.e4.ui.model.workbench" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.jsch.ui"/>
+<plugin id="org.eclipse.jface.text.source"/>
+<plugin id="org.eclipse.core.runtime" version="3.8.0.v20120521-2346"/>
+<plugin id="org.eclipse.e4.ui.css.swt.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.emf.cheatsheets"/>
+<plugin id="org.eclipse.e4.ui.workbench3.source" version="0.12.0.v20120521-2329"/>
+<plugin id="org.apache.sling.scripting.core"/>
+<plugin id="org.eclipse.emf.databinding"/>
+<plugin id="org.apache.sling.extensions.threaddump"/>
+<plugin id="org.eclipse.equinox.p2.ui.discovery" version="1.0.0.v20110808-1657"/>
+<plugin id="org.eclipse.wst.dtd.ui.infopop"/>
+<plugin id="org.eclipse.xtext.smap.source"/>
+<plugin id="org.eclipse.emf.codegen.ui.source"/>
+<plugin id="org.eclipse.emf.exporter"/>
+<plugin id="org.eclipse.mylyn.wikitext.textile.core.source"/>
+<plugin id="org.eclipse.jface.databinding" version="1.6.0.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.log" version="1.2.300.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.console" version="1.0.0.v20120522-1841"/>
+<plugin id="org.eclipse.xtext.xbase.ui"/>
+<plugin id="org.eclipse.mylyn.tasks.index.ui"/>
+<plugin id="org.apache.felix.metatype" version="1.0.4"/>
+<plugin id="org.eclipse.jface.databinding.source" version="1.6.0.v20120521-2329"/>
+<plugin id="org.eclipse.ui.views.properties.tabbed.source"/>
+<plugin id="org.eclipse.equinox.weaving.hook.source"/>
+<plugin id="org.eclipse.e4.ui.di" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.batik.css.source" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.osgi.services" version="3.3.100.v20120522-1822"/>
+<plugin id="org.apache.xmlrpc"/>
+<plugin id="org.eclipse.egit.core"/>
+<plugin id="ch.qos.logback.classic" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.equinox.p2.metadata.repository" version="1.2.100.v20120524-1717"/>
+<plugin id="org.eclipse.equinox.p2.director" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.equinox.launcher.cocoa.macosx.x86_64" version="1.1.200.v20120522-1813"/>
+<plugin id="org.eclipse.equinox.p2.core.source" version="2.2.0.v20120430-0525"/>
+<plugin id="org.eclipse.wb.rcp.nebula"/>
+<plugin id="org.apache.felix.gogo.shell" version="0.8.0.v201110170705"/>
+<plugin id="org.eclipse.equinox.ip"/>
+<plugin id="org.apache.commons.math" version="2.2"/>
+<plugin id="org.apache.sling.launchpad.content"/>
+<plugin id="org.eclipse.e4.core.contexts" version="1.1.0.v20120523-2004"/>
+<plugin id="org.eclipse.osgi.util" version="3.2.300.v20120522-1822"/>
+<plugin id="org.apache.geronimo.bundles.commons-httpclient" version="3.1.0.1"/>
+<plugin id="org.eclipse.emf.codegen.ecore.xtext"/>
+<plugin id="org.eclipse.e4.ui.css.swt.theme.source" version="0.9.2.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.security" version="1.1.100.v20120522-1841"/>
+<plugin id="osgi.core" version="4.1.0.build-200702212030"/>
+<plugin id="org.eclipse.rap.ui.intro"/>
+<plugin id="org.eclipse.equinox.p2.artifact.repository" version="1.1.200.v20120430-1959"/>
+<plugin id="org.apache.commons.codec" version="1.3.0.v201101211617"/>
+<plugin id="org.eclipse.platform.doc.user"/>
+<plugin id="org.eclipse.equinox.security.macosx" version="1.100.200.v20120522-2049"/>
+<plugin id="org.apache.felix.gogo.shell" version="0.8.0.v201110170705"/>
+<plugin id="ch.qos.logback.slf4j.source" version="1.0.0.v20120123-1500"/>
+<plugin id="org.eclipse.equinox.log" version="1.2.300.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.p2.updatechecker" version="1.1.200.v20110808-1657"/>
+<plugin id="org.eclipse.m2e.jdt"/>
+<plugin id="javax.inject.source" version="1.0.0.v20091030"/>
+<plugin id="org.eclipse.e4.ui.css.swt.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
+<plugin id="org.eclipse.equinox.p2.metadata.repository.source" version="1.2.100.v20120524-1717"/>
+<plugin id="org.eclipse.mylyn.tasks.ui"/>
+<plugin id="org.eclipse.ecf.discovery"/>
+<plugin id="org.apache.felix.gogo.shell.source" version="0.8.0.v201110170705"/>
+<plugin id="org.apache.lucene.analysis.source"/>
+<plugin id="org.eclipse.e4.ui.workbench.source" version="0.10.2.v20120531-1742"/>
+<plugin id="org.junit.source" version="3.8.2.v3_8_2_v20100427-1100"/>
+<plugin id="org.eclipse.equinox.supplement" version="1.4.100.v20120522-1813"/>
+<plugin id="org.eclipse.equinox.frameworkadmin.source" version="2.0.100.v20120606-175127"/>
+<plugin id="org.w3c.dom.svg.source" version="1.1.0.v201011041433"/>
+<plugin id="org.junit.source" version="4.10.0.v4_10_0_v20120426-0900"/>
+<plugin id="org.eclipse.mylyn.commons.screenshots.source"/>
+<plugin id="org.eclipse.equinox.ip.source"/>
+<plugin id="org.eclipse.emf.ecore.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.core.runtime.source" version="3.8.0.v20120521-2346"/>
+<plugin id="org.apache.xerces"/>
+<plugin id="org.eclipse.core.contenttype" version="3.4.200.v20120523-2004"/>
+<plugin id="org.eclipse.wst.common.emfworkbench.integration"/>
+<plugin id="org.springframework.test"/>
+<plugin id="org.eclipse.wst.xml.core"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.httpclient.ssl.source" version="1.0.0.v20120608-0148"/>
+<plugin id="org.eclipse.jdt.debug"/>
+<plugin id="org.eclipse.mylyn.wikitext.textile.ui"/>
+<plugin id="org.eclipse.e4.ui.services.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.wb.swt"/>
+<plugin id="org.eclipse.core.expressions.source" version="3.4.400.v20120523-2004"/>
+<plugin id="org.springframework.beans"/>
+<plugin id="org.eclipse.equinox.log.source" version="1.2.300.v20120522-2049"/>
+<plugin id="org.eclipse.xpand"/>
+<plugin id="org.apache.batik.css.source" version="1.6.0.v201011041432"/>
+<plugin id="org.hamcrest.integration" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.wb.core.databinding"/>
+<plugin id="org.eclipse.m2e.logback.configuration"/>
+<plugin id="org.eclipse.core.databinding" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.gemini.blueprint.extender"/>
+<plugin id="org.eclipse.e4.core.di.source" version="1.1.0.v20120521-2346"/>
+<plugin id="org.eclipse.equinox.app" version="1.3.100.v20120522-1841"/>
+<plugin id="org.eclipse.wst.dtdeditor.doc.user"/>
+<plugin id="org.eclipse.pde.ds.ui"/>
+<plugin id="org.eclipse.equinox.p2.director.app.source" version="1.0.300.v20120428-0517"/>
+<plugin id="org.eclipse.jetty.io.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.jdt.core.manipulation.source"/>
+<plugin id="org.eclipse.ui.workbench" version="3.103.0.v20120530-1824"/>
+<plugin id="org.eclipse.equinox.p2.console" version="1.0.300.v20120429-0125"/>
+<plugin id="org.eclipse.jface.text"/>
+<plugin id="org.eclipse.emf.mwe.utils"/>
+<plugin id="org.eclipse.ant.ui"/>
+<plugin id="org.sat4j.pb" version="2.3.0.v20110329"/>
+<plugin id="org.eclipse.pde.runtime"/>
+<plugin id="org.eclipse.equinox.preferences.source" version="3.5.0.v20120522-1841"/>
+<plugin id="org.eclipse.jetty.xml.source"/>
+<plugin id="org.sat4j.core" version="2.3.0.v20110329"/>
+<plugin id="org.eclipse.core.variables.source" version="3.2.600.v20120521-2012"/>
+<plugin id="org.eclipse.m2e.core.ui"/>
+<plugin id="ch.qos.logback.classic" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.equinox.common.source" version="3.6.100.v20120522-1841"/>
+<plugin id="org.eclipse.equinox.security.ui" version="1.1.100.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.p2.transport.ecf.source" version="1.0.100.v20120305-0333"/>
+<plugin id="org.hamcrest.text.source" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.emf.mwe2.runtime.source"/>
+<plugin id="org.eclipse.e4.ui.workbench.source" version="0.10.2.v20120531-1742"/>
+<plugin id="org.apache.commons.codec" version="1.6.0"/>
+<plugin id="org.eclipse.jface" version="3.8.0.v20120521-2329"/>
+<plugin id="org.w3c.dom.smil" version="1.0.0.v200806040011"/>
+<plugin id="org.eclipse.ecf.filetransfer" version="5.0.0.v20120608-0148"/>
+<plugin id="org.apache.commons.lang3"/>
+<plugin id="org.antlr.runtime.source"/>
+<plugin id="org.eclipse.mylyn.wikitext.core"/>
+<plugin id="org.apache.commons.httpclient" version="3.1.0.v201012070820"/>
+<plugin id="org.eclipse.core.runtime" version="3.8.0.v20120521-2346"/>
+<plugin id="org.eclipse.mylyn.commons.notifications"/>
+<plugin id="org.mockito.mockito-all"/>
+<plugin id="org.eclipse.osgi.services.source" version="3.3.100.v20120522-1822"/>
+<plugin id="org.apache.felix.gogo.shell.source" version="0.8.0.v201110170705"/>
+<plugin id="org.eclipse.core.databinding.observable.source" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.jface" version="3.8.0.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.jsp.jasper.source" version="1.0.400.v20120522-2049"/>
+<plugin id="org.apache.sling.adapter"/>
+<plugin id="org.eclipse.osgi.services.source" version="3.3.100.v20120522-1822"/>
+<plugin id="org.eclipse.equinox.p2.metadata" version="2.1.0.v20120430-2001"/>
+<plugin id="javax.servlet.source" version="3.0.0.v201112011016"/>
+<plugin id="org.eclipse.m2e.logback.appender"/>
+<plugin id="org.eclipse.equinox.registry" version="3.5.200.v20120522-1841"/>
+<plugin id="org.eclipse.equinox.metatype"/>
+<plugin id="org.apache.log4j" version="1.2.15.v201012070815"/>
+<plugin id="org.eclipse.core.databinding.beans.source"/>
+<plugin id="org.eclipse.e4.ui.di.source" version="0.10.1.v20120523-1955"/>
+<plugin id="javax.annotation.source" version="1.0.0.v20101115-0725"/>
+<plugin id="org.eclipse.emf.ecore" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.compare.source"/>
+<plugin id="org.apache.commons.codec" version="1.3.0.v201101211617"/>
+<plugin id="org.eclipse.xtext.xbase.lib"/>
+<plugin id="org.eclipse.equinox.http.registry.source" version="1.1.200.v20120522-2049"/>
+<plugin id="org.apache.felix.javax.servlet" version="1.0.0"/>
+<plugin id="org.eclipse.ant.launching.source"/>
+<plugin id="org.eclipse.e4.ui.workbench" version="0.10.2.v20120531-1742"/>
+<plugin id="org.junit4"/>
+<plugin id="org.eclipse.e4.core.commands" version="0.10.1.v20120523-1955"/>
+<plugin id="javax.servlet.jsp" version="2.2.0.v201112011158"/>
+<plugin id="org.apache.felix.scr" version="1.6.0"/>
+<plugin id="org.eclipse.mylyn.help.ui"/>
+<plugin id="org.eclipse.pde.ds.core.source"/>
+<plugin id="org.eclipse.mylyn.ide.ant.source"/>
+<plugin id="org.eclipse.jdt.launching"/>
+<plugin id="org.eclipse.equinox.p2.publisher" version="1.2.0.v20120428-0117"/>
+<plugin id="org.eclipse.e4.ui.workbench.addons.swt"/>
+<plugin id="org.apache.batik.util.source" version="1.6.0.v201011041432"/>
+<plugin id="org.apache.tika.core"/>
+<plugin id="org.eclipse.emf"/>
+<plugin id="org.eclipse.osgi.services" version="3.3.100.v20120522-1822"/>
+<plugin id="org.eclipse.e4.ui.workbench.swt.source" version="0.10.1.v20120525-2014"/>
+<plugin id="org.apache.sling.jcr.jackrabbit.server"/>
+<plugin id="org.eclipse.emf.ecore.xcore.edit.source"/>
+<plugin id="org.eclipse.equinox.p2.ui.sdk.scheduler" version="1.1.0.v20110815-1744"/>
+<plugin id="org.eclipse.osgi.util" version="3.2.300.v20120522-1822"/>
+<plugin id="org.eclipse.mylyn.reviews.ui"/>
+<plugin id="org.eclipse.jetty.servlet.source" version="8.1.3.v20120522"/>
+<plugin id="org.apache.felix.shell"/>
+<plugin id="org.eclipse.mylyn.wikitext.core.source"/>
+<plugin id="org.eclipse.xpand.source"/>
+<plugin id="org.eclipse.equinox.p2.metadata.repository.source" version="1.2.100.v20120524-1717"/>
+<plugin id="org.eclipse.emf.ecore" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.equinox.simpleconfigurator" version="1.0.300.v20110815-1744"/>
+<plugin id="org.apache.commons.lang" version="2.5"/>
+<plugin id="org.eclipse.equinox.p2.operations.source" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.platform.source"/>
+<plugin id="org.eclipse.equinox.p2.directorywatcher" version="1.0.300.v20110808-1657"/>
+<plugin id="org.hamcrest.core" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.ecf.filetransfer" version="5.0.0.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.p2.operations.source" version="2.2.0.v20120524-0542"/>
+<plugin id="org.apache.aries.util"/>
+<plugin id="org.eclipse.mylyn.gerrit.core.source"/>
+<plugin id="org.apache.commons.pool" version="1.5.4"/>
+<plugin id="org.eclipse.jdt.junit4.runtime"/>
+<plugin id="org.eclipse.wb.runtime.lib"/>
+<plugin id="org.eclipse.emf.codegen.ecore.source"/>
+<plugin id="org.apache.felix.gogo.command.source" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.equinox.p2.discovery.compatibility" version="1.0.101.v20120524-1717"/>
+<plugin id="jcl.over.slf4j" version="1.6.4"/>
+<plugin id="org.eclipse.equinox.region"/>
+<plugin id="org.eclipse.ant.ui.source"/>
+<plugin id="org.eclipse.equinox.ds.source" version="1.4.0.v20120522-1841"/>
+<plugin id="org.eclipse.mylyn.commons.ui"/>
+<plugin id="org.eclipse.equinox.ds" version="1.4.0.v20120522-1841"/>
+<plugin id="org.eclipse.pde.runtime.source"/>
+<plugin id="org.slf4j.api" version="1.6.4.v20120130-2120"/>
+<plugin id="org.eclipse.pde.api.tools.ui.source"/>
+<plugin id="org.eclipse.equinox.security.macosx.source" version="1.100.200.v20120522-2049"/>
+<plugin id="org.hamcrest.library" version="1.1.0.v20090501071000"/>
+<plugin id="jcl.over.slf4j" version="1.6.4"/>
+<plugin id="org.eclipse.equinox.p2.repository" version="2.2.0.v20120524-1945"/>
+<plugin id="org.apache.sling.scripting.api" version="2.1.4"/>
+<plugin id="org.w3c.css.sac" version="1.3.1.v200903091627"/>
+<plugin id="org.eclipse.ecf.provider.discovery"/>
+<plugin id="org.apache.felix.eventadmin" version="1.2.14"/>
+<plugin id="org.eclipse.core.expressions" version="3.4.400.v20120523-2004"/>
+<plugin id="org.eclipse.recommenders.completion.rcp.templates"/>
+<plugin id="org.eclipse.mylyn.context.ui"/>
+<plugin id="org.eclipse.emf.ant.source"/>
+<plugin id="org.eclipse.equinox.http.registry.source" version="1.1.200.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.ds" version="1.4.0.v20120522-1841"/>
+<plugin id="org.eclipse.equinox.console.source" version="1.0.0.v20120522-1841"/>
+<plugin id="org.eclipse.xtend.typesystem.emf.source"/>
+<plugin id="org.eclipse.ecf" version="3.1.300.v20120608-0148"/>
+<plugin id="org.apache.ant"/>
+<plugin id="org.apache.sling.fragment.ws"/>
+<plugin id="org.eclipse.equinox.region.source"/>
+<plugin id="org.osgi.core" version="4"/>
+<plugin id="org.eclipse.xtext.common.types.edit.source"/>
+<plugin id="org.eclipse.equinox.p2.publisher.source" version="1.2.0.v20120428-0117"/>
+<plugin id="org.eclipse.jdt.junit.runtime"/>
+<plugin id="org.hamcrest.library" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.e4.ui.widgets.source" version="0.12.0.v20120523-1955"/>
+<plugin id="org.eclipse.recommenders.completion.rcp.overrides"/>
+<plugin id="org.eclipse.equinox.common" version="3.6.100.v20120522-1841"/>
+<plugin id="org.eclipse.wst.sse.doc.user"/>
+<plugin id="org.eclipse.emf.ecore.change.edit"/>
+<plugin id="org.eclipse.rap.ui.launch.source"/>
+<plugin id="org.eclipse.pde.api.tools"/>
+<plugin id="org.eclipse.xtext"/>
+<plugin id="org.slf4j.api.source" version="1.6.4.v20120130-2120"/>
+<plugin id="org.apache.sling.extensions.webconsolebranding"/>
+<plugin id="org.eclipse.jetty.io.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.core.runtime.compatibility.auth"/>
+<plugin id="org.eclipse.wst.xsd.ui"/>
+<plugin id="org.eclipse.team.cvs.core"/>
+<plugin id="org.eclipse.equinox.p2.director.app.source" version="1.0.300.v20120428-0517"/>
+<plugin id="org.eclipse.recommenders.jayes.serialization"/>
+<plugin id="org.eclipse.xtext.ui.codetemplates.ui.source"/>
+<plugin id="org.eclipse.xtext.ecore.source"/>
+<plugin id="org.apache.commons.codec.source" version="1.3.0.v201101211617"/>
+<plugin id="org.eclipse.ui.views"/>
+<plugin id="org.apache.sling.commons.osgi"/>
+<plugin id="org.eclipse.mylyn.discovery.core"/>
+<plugin id="org.eclipse.m2e.maven.runtime"/>
+<plugin id="org.eclipse.equinox.p2.repository.tools" version="2.0.100.v20120501-1314"/>
+<plugin id="org.eclipse.pde.ua.ui.source"/>
+<plugin id="com.google.gerrit.common"/>
+<plugin id="org.eclipse.wst.sse.ui.infopop"/>
+<plugin id="ch.qos.logback.core.source" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.ui.trace"/>
+<plugin id="org.apache.lucene.core.source" version="3.5.0.v20120319-2345"/>
+<plugin id="org.eclipse.ant.core.source"/>
+<plugin id="org.junit.source" version="4.10.0.v4_10_0_v20120426-0900"/>
+<plugin id="org.eclipse.mylyn.wikitext.textile.core"/>
+<plugin id="org.eclipse.equinox.util" version="1.0.400.v20120522-2049"/>
+<plugin id="org.antlr.runtime"/>
+<plugin id="com.mysql.jdbc"/>
+<plugin id="org.eclipse.emf.mapping.ecore.editor"/>
+<plugin id="org.apache.lucene.misc"/>
+<plugin id="org.eclipse.e4.ui.css.swt.theme.source" version="0.9.2.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.launcher.source" version="1.3.0.v20120522-1813"/>
+<plugin id="org.eclipse.emf.mapping.ecore2xml.source"/>
+<plugin id="org.eclipse.mylyn.monitor.core.source"/>
+<plugin id="slf4j.api" version="1.6.6"/>
+<plugin id="org.apache.felix.gogo.command" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.core.contenttype.source" version="3.4.200.v20120523-2004"/>
+<plugin id="org.eclipse.text.source"/>
+<plugin id="org.apache.felix.gogo.runtime" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.draw2d"/>
+<plugin id="org.eclipse.mylyn.bugzilla.core.source"/>
+<plugin id="org.eclipse.emf.ecore.change.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.mylyn.commons.repositories.ui"/>
+<plugin id="org.eclipse.equinox.p2.ui.admin.rcp"/>
+<plugin id="org.eclipse.equinox.p2.ui.source" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.wb.core.lib" version="1.5.0.r42x201206111201"/>
+<plugin id="org.eclipse.equinox.p2.publisher.eclipse" version="1.1.0.v20120511-1931"/>
+<plugin id="org.apache.commons.math" version="2.1.0.v201105210652"/>
+<plugin id="org.eclipse.mylyn.hudson.ui"/>
+<plugin id="org.apache.sling.installer.core"/>
+<plugin id="org.jboss.netty"/>
+<plugin id="org.eclipse.equinox.useradmin"/>
+<plugin id="org.eclipse.ui.trace.source"/>
+<plugin id="org.eclipse.jetty.security.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.emf.ecore.xcore.ui"/>
+<plugin id="org.eclipse.e4.ui.css.core.source" version="0.10.1.v20120523-1955"/>
+<plugin id="derby"/>
+<plugin id="org.hamcrest.integration.source" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.mylyn.commons.notifications.ui.source"/>
+<plugin id="org.eclipse.emf.codegen.ecore"/>
+<plugin id="org.eclipse.equinox.http.registry" version="1.1.200.v20120522-2049"/>
+<plugin id="org.apache.jackrabbit.jackrabbit-webdav"/>
+<plugin id="org.eclipse.equinox.p2.artifact.repository" version="1.1.200.v20120430-1959"/>
+<plugin id="org.eclipse.jsch.core.source"/>
+<plugin id="org.eclipse.core.databinding.property.source" version="1.4.100.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.frameworkadmin.source" version="2.0.100.v20120606-175127"/>
+<plugin id="org.apache.sling.fragment.xml" version="1.0.0"/>
+<plugin id="org.w3c.dom.smil" version="1.0.0.v200806040011"/>
+<plugin id="org.eclipse.e4.ui.model.workbench.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.sling.jcr.registration"/>
+<plugin id="org.eclipse.equinox.http.servlet.source" version="1.1.300.v20120522-1841"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.source" version="3.2.0.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.p2.core" version="2.2.0.v20120430-0525"/>
+<plugin id="org.eclipse.ecf.ssl.source" version="1.0.100.v20120608-0148"/>
+<plugin id="org.eclipse.mylyn.team.cvs.source"/>
+<plugin id="org.apache.commons.math.source"/>
+<plugin id="org.eclipse.mylyn.hudson.ui.source"/>
+<plugin id="org.eclipse.mylyn.tasks.index.core.source"/>
+<plugin id="org.eclipse.jface.databinding.source" version="1.6.0.v20120521-2329"/>
+<plugin id="org.eclipse.jdt.junit.source"/>
+<plugin id="org.eclipse.equinox.p2.repository.tools.source" version="2.0.100.v20120501-1314"/>
+<plugin id="org.eclipse.mylyn.commons.workbench.source"/>
+<plugin id="org.eclipse.e4.ui.workbench.renderers.swt" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.core.databinding.property.source" version="1.4.100.v20120523-1955"/>
+<plugin id="org.eclipse.team.cvs.core.source"/>
+<plugin id="org.apache.log4j" version="1.2.15.v201012070815"/>
+<plugin id="org.apache.servicemix.bundles.aopalliance"/>
+<plugin id="org.apache.batik.util" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.mylyn.commons.net.source"/>
+<plugin id="org.eclipse.pde"/>
+<plugin id="org.eclipse.equinox.event.source" version="1.2.200.v20120522-2049"/>
+<plugin id="org.apache.commons.httpclient.source" version="3.1.0.v201012070820"/>
+<plugin id="org.eclipse.pde.ua.core.source"/>
+<plugin id="org.eclipse.equinox.frameworkadmin" version="2.0.100.v20120606-175127"/>
+<plugin id="org.eclipse.equinox.jsp.jasper.registry" version="1.0.300.v20120522-2049"/>
+<plugin id="org.eclipse.e4.ui.di.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.e4.ui.workbench.swt.source" version="0.10.1.v20120525-2014"/>
+<plugin id="org.eclipse.equinox.p2.touchpoint.natives.source" version="1.1.0.v20120524-0542"/>
+<plugin id="org.eclipse.mylyn.tasks.core"/>
+<plugin id="org.eclipse.xtext.ecore"/>
+<plugin id="org.apache.sling.fragment.activation" version="1.0.0"/>
+<plugin id="org.apache.sling.installer.console"/>
+<plugin id="javax.annotation.source" version="1.0.0.v20101115-0725"/>
+<plugin id="com.ibm.icu" version="4.4.2.v20110823"/>
+<plugin id="org.eclipse.emf.ecore.edit"/>
+<plugin id="org.apache.batik.util.source" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.gemini.blueprint.io"/>
+<plugin id="org.apache.sling.fragment.transaction"/>
+<plugin id="com.ibm.icu.source" version="4.4.2.v20110823"/>
+<plugin id="org.w3c.dom.smil" version="1.0.0.v200806040011"/>
+<plugin id="org.eclipse.equinox.preferences.source" version="3.5.0.v20120522-1841"/>
+<plugin id="org.eclipse.emf.edit.source"/>
+<plugin id="org.apache.felix.gogo.command.source" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.e4.core.services" version="1.0.0.v20120521-2346"/>
+<plugin id="org.eclipse.ui.browser" version="3.4.0.v20120521-2329"/>
+<plugin id="org.eclipse.mylyn.commons.repositories"/>
+<plugin id="javax.activation.source"/>
+<plugin id="org.eclipse.mylyn.wikitext.help.ui"/>
+<plugin id="org.apache.commons.logging.source" version="1.0.4.v201101211617"/>
+<plugin id="org.eclipse.core.commands.source" version="3.6.1.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.common" version="3.6.100.v20120522-1841"/>
+<plugin id="javax.xml" version="1.3.4.v201005080400"/>
+<plugin id="org.eclipse.emf.mapping.ecore2xml.ui.source"/>
+<plugin id="org.eclipse.jdt.junit"/>
+<plugin id="org.apache.lucene.source" version="2.9.1.v201101211721"/>
+<plugin id="org.eclipse.jdt.apt.pluggable.core"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.ssl.source" version="1.0.0.v20120608-0148"/>
+<plugin id="org.eclipse.help.base.source"/>
+<plugin id="org.eclipse.epp.mpc.core"/>
+<plugin id="ch.qos.logback.slf4j" version="1.0.0.v20120123-1500"/>
+<plugin id="org.hamcrest.core.source" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.mylyn.wikitext.mediawiki.ui.source"/>
+<plugin id="org.eclipse.equinox.p2.artifact.repository.source" version="1.1.200.v20120430-1959"/>
+<plugin id="org.eclipse.e4.ui.css.swt.theme" version="0.9.2.v20120523-1955"/>
+<plugin id="org.apache.jackrabbit.jackrabbit-spi"/>
+<plugin id="org.eclipse.e4.core.di" version="1.1.0.v20120521-2346"/>
+<plugin id="org.eclipse.xtext.common.types.ui"/>
+<plugin id="org.eclipse.e4.ui.css.swt.theme" version="0.9.2.v20120523-1955"/>
+<plugin id="org.eclipse.emf.exporter.source"/>
+<plugin id="org.eclipse.wst.common.frameworks.ui"/>
+<plugin id="org.eclipse.e4.ui.widgets" version="0.12.0.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.event.source" version="1.2.200.v20120522-2049"/>
+<plugin id="org.eclipse.emf.ecore.source" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.e4.core.services.source" version="1.0.0.v20120521-2346"/>
+<plugin id="org.eclipse.ui.workbench.texteditor"/>
+<plugin id="org.eclipse.ecf.filetransfer.source" version="5.0.0.v20120608-0148"/>
+<plugin id="org.eclipse.e4.ui.workbench.swt" version="0.10.1.v20120525-2014"/>
+<plugin id="org.eclipse.mylyn.java.tasks"/>
+<plugin id="org.eclipse.equinox.ds.source" version="1.4.0.v20120522-1841"/>
+<plugin id="org.eclipse.emf.importer.java"/>
+<plugin id="org.eclipse.wst.sse.core"/>
+<plugin id="org.eclipse.emf.mwe2.runtime"/>
+<plugin id="org.eclipse.cvs"/>
+<plugin id="org.eclipse.mylyn.reviews.core"/>
+<plugin id="org.eclipse.wst.xml.ui.infopop"/>
+<plugin id="jcl.over.slf4j" version="1.6.4"/>
+<plugin id="org.eclipse.mylyn.bugzilla.ide"/>
+<plugin id="org.apache.batik.util.gui" version="1.6.0.v201011041432"/>
+<plugin id="com.sun.syndication"/>
+<plugin id="org.apache.sling.commons.classloader" version="1.3.0"/>
+<plugin id="org.eclipse.wb.rcp"/>
+<plugin id="org.eclipse.debug.ui"/>
+<plugin id="org.w3c.css.sac" version="1.3.1.v200903091627"/>
+<plugin id="org.eclipse.equinox.p2.jarprocessor" version="1.0.200.v20110808-1657"/>
+<plugin id="org.eclipse.gef.source"/>
+<plugin id="org.eclipse.emf.mapping.ui.source"/>
+<plugin id="org.eclipse.compare.core.source"/>
+<plugin id="org.eclipse.gemini.blueprint.mock"/>
+<plugin id="org.slf4j.api.source" version="1.6.4.v20120130-2120"/>
+<plugin id="org.eclipse.m2e.launching"/>
+<plugin id="org.eclipse.emf.edit.ui"/>
+<plugin id="org.eclipse.equinox.p2.repository.source" version="2.2.0.v20120524-1945"/>
+<plugin id="org.eclipse.equinox.p2.directorywatcher.source" version="1.0.300.v20110808-1657"/>
+<plugin id="javax.inject" version="1.0.0.v20091030"/>
+<plugin id="org.eclipse.mylyn.ide.ant"/>
+<plugin id="org.eclipse.e4.ui.model.workbench" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.core.jobs.source" version="3.5.200.v20120521-2346"/>
+<plugin id="javax.servlet.jsp" version="2.2.0.v201112011158"/>
+<plugin id="org.eclipse.jetty.webapp"/>
+<plugin id="org.eclipse.equinox.weaving.hook"/>
+<plugin id="org.eclipse.equinox.simpleconfigurator.manipulator.source" version="2.0.0.v20110808-1657"/>
+<plugin id="org.eclipse.jetty.util" version="8.1.3.v20120522"/>
+<plugin id="org.apache.jackrabbit.jackrabbit-jcr-commons"/>
+<plugin id="org.eclipse.mylyn.pde.ui.source"/>
+<plugin id="org.apache.commons.httpclient.source" version="3.1.0.v201012070820"/>
+<plugin id="org.eclipse.equinox.p2.core" version="2.2.0.v20120430-0525"/>
+<plugin id="org.eclipse.emf.common.ui.source"/>
+<plugin id="org.apache.commons.math" version="2.2"/>
+<plugin id="org.eclipse.recommenders.injection"/>
+<plugin id="org.eclipse.jdt.debug.source"/>
+<plugin id="org.eclipse.jdt.source"/>
+<plugin id="org.eclipse.e4.ui.widgets" version="0.12.0.v20120523-1955"/>
+<plugin id="com.google.gerrit.reviewdb"/>
+<plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<plugin id="org.apache.httpcomponents.httpcore.source"/>
+<plugin id="org.apache.sling.jcr.ocm"/>
+<plugin id="org.apache.xml.serializer"/>
+<plugin id="org.eclipse.mylyn.gerrit.ui"/>
+<plugin id="org.apache.sling.commons.classloader" version="1.3.0"/>
+<plugin id="org.hamcrest.core.source" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.wb.rcp.databinding.emf"/>
+<plugin id="org.eclipse.wst.internet.cache"/>
+<plugin id="org.eclipse.e4.core.di.extensions" version="0.11.0.v20120523-2004"/>
+<plugin id="org.hamcrest" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.rap.ui.launch.rwt"/>
+<plugin id="org.eclipse.mylyn.wikitext.confluence.ui.source"/>
+<plugin id="org.eclipse.mylyn.wikitext.mediawiki.core"/>
+<plugin id="org.eclipse.equinox.frameworkadmin.equinox.source" version="1.0.400.v20120428-0117"/>
+<plugin id="org.eclipse.mylyn.wikitext.tracwiki.ui.source"/>
+<plugin id="slf4j.log4j12" version="1.6.6"/>
+<plugin id="org.eclipse.equinox.p2.director.source" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.equinox.log" version="1.2.300.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.p2.ql" version="2.0.100.v20110808-1657"/>
+<plugin id="org.osgi.core" version="4"/>
+<plugin id="org.apache.jasper.glassfish.source" version="2.2.2.v201205150955"/>
+<plugin id="org.eclipse.equinox.simpleconfigurator.manipulator.source" version="2.0.0.v20110808-1657"/>
+<plugin id="org.eclipse.emf.databinding.edit"/>
+<plugin id="org.eclipse.equinox.p2.updatechecker.source" version="1.1.200.v20110808-1657"/>
+<plugin id="org.eclipse.core.filebuffers"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.httpclient.ssl.source" version="1.0.0.v20120608-0148"/>
+<plugin id="org.eclipse.mylyn.versions.ui.source"/>
+<plugin id="org.apache.felix.gogo.command.source" version="0.8.0.v201108120515"/>
+<plugin id="org.eclipse.equinox.p2.publisher.eclipse.source" version="1.1.0.v20120511-1931"/>
+<plugin id="org.eclipse.equinox.http.servletbridge"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.ssl.source" version="1.0.0.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.wireadmin"/>
+<plugin id="org.eclipse.mylyn.wikitext.confluence.core"/>
+<plugin id="org.eclipse.xtext.ui.codetemplates"/>
+<plugin id="org.eclipse.compare"/>
+<plugin id="org.apache.sling.jcr.davex"/>
+<plugin id="org.eclipse.e4.core.commands" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.mylyn.context.tasks.ui.source"/>
+<plugin id="org.apache.lucene.misc.source"/>
+<plugin id="org.eclipse.equinox.p2.transport.ecf" version="1.0.100.v20120305-0333"/>
+<plugin id="org.eclipse.ui.intro.universal"/>
+<plugin id="org.apache.sling.jcr.webdav"/>
+<plugin id="org.eclipse.e4.core.services.source" version="1.0.0.v20120521-2346"/>
+<plugin id="org.eclipse.compare.core"/>
+<plugin id="org.hamcrest.generator"/>
+<plugin id="org.eclipse.core.commands.source" version="3.6.1.v20120521-2329"/>
+<plugin id="org.eclipse.equinox.p2.extensionlocation" version="1.2.100.v20110808-1657"/>
+<plugin id="org.eclipse.emf.codegen.ecore.ui"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.httpclient" version="4.0.200.v20120608-0148"/>
+<plugin id="org.eclipse.e4.ui.workbench" version="0.10.2.v20120531-1742"/>
+<plugin id="org.eclipse.core.databinding.property" version="1.4.100.v20120523-1955"/>
+<plugin id="org.eclipse.e4.ui.services.source" version="0.10.1.v20120523-1955"/>
+<plugin id="com.google.gwt.servlet.source"/>
+<plugin id="org.aopalliance" version="1.0.0.v201105210816"/>
+<plugin id="org.apache.lucene.queries"/>
+<plugin id="org.eclipse.equinox.io.source"/>
+<plugin id="org.eclipse.e4.ui.workbench.swt" version="0.10.1.v20120525-2014"/>
+<plugin id="org.eclipse.ui.ide"/>
+<plugin id="org.eclipse.wst.validation.ui"/>
+<plugin id="org.eclipse.emf.importer"/>
+<plugin id="org.apache.sling.scripting.jsp.taglib"/>
+<plugin id="org.eclipse.m2e.core"/>
+<plugin id="org.eclipse.equinox.weaving.caching.j9"/>
+<plugin id="org.eclipse.core.resources"/>
+<plugin id="org.eclipse.wb.runtime"/>
+<plugin id="org.eclipse.emf.ecore" version="2.8.0.v20120606-0717"/>
+<plugin id="org.eclipse.e4.ui.workbench3" version="0.12.0.v20120521-2329"/>
+<plugin id="ch.qos.logback.core.source" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.e4.ui.css.core.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.registry" version="3.5.200.v20120522-1841"/>
+<plugin id="osgi.core" version="4.1.0.build-200702212030"/>
+<plugin id="org.eclipse.equinox.preferences" version="3.5.0.v20120522-1841"/>
+<plugin id="org.eclipse.xsd.edit"/>
+<plugin id="org.eclipse.jdt.debug.ui"/>
+<plugin id="org.apache.sling.installer.provider.file"/>
+<plugin id="org.eclipse.equinox.concurrent.source" version="1.0.300.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.log.source" version="1.2.300.v20120522-2049"/>
+<plugin id="org.eclipse.e4.ui.css.core" version="0.10.1.v20120523-1955"/>
+<plugin id="org.apache.sling.jcr.classloader"/>
+<plugin id="org.eclipse.jetty.xml"/>
+<plugin id="org.eclipse.search.source"/>
+<plugin id="org.eclipse.jdt.annotation.source"/>
+<plugin id="com.ibm.icu.source" version="4.4.2.v20110823"/>
+<plugin id="com.google.gwtjsonrpc.source"/>
+<plugin id="org.eclipse.xtext.ui.shared.source"/>
+<plugin id="org.apache.sling.scripting.javascript"/>
+<plugin id="org.eclipse.pde.api.tools.source"/>
+<plugin id="org.eclipse.equinox.p2.reconciler.dropins.source" version="1.1.200.v20120301-2145"/>
+<plugin id="org.eclipse.core.databinding.observable.source" version="1.4.1.v20120521-2329"/>
+<plugin id="org.eclipse.xtext.common.types"/>
+<plugin id="com.google.gerrit.prettify"/>
+<plugin id="org.springframework.core"/>
+<plugin id="org.eclipse.ui.views.source"/>
+<plugin id="org.eclipse.ecf.ssl" version="1.0.100.v20120608-0148"/>
+<plugin id="org.apache.commons.pool" version="1.6.0.v201204271246"/>
+<plugin id="org.eclipse.equinox.p2.ui" version="2.2.0.v20120524-0542"/>
+<plugin id="org.eclipse.mylyn.commons.notifications.ui"/>
+<plugin id="org.eclipse.wst.sse.ui"/>
+<plugin id="org.apache.lucene.core.source" version="2.9.1.v201101211721"/>
+<plugin id="log4j" version="1.2.17"/>
+<plugin id="javax.inject" version="1.0.0.v20091030"/>
+<plugin id="org.springframework.context"/>
+<plugin id="org.eclipse.m2e.editor"/>
+<plugin id="com.ibm.icu" version="4.4.2.v20110823"/>
+<plugin id="org.eclipse.jdt.compiler.tool.source"/>
+<plugin id="org.eclipse.mylyn.gerrit.ui.source"/>
+<plugin id="com.ning.async-http-client"/>
+<plugin id="org.apache.sling.servlets.post"/>
+<plugin id="org.eclipse.jdt.apt.ui.source"/>
+<plugin id="org.apache.sling.fsresource"/>
+<plugin id="org.eclipse.emf.mapping"/>
+<plugin id="org.eclipse.core.runtime.compatibility.registry"/>
+<plugin id="org.eclipse.mylyn.commons.ui.source"/>
+<plugin id="org.eclipse.ecf.identity" version="3.1.200.v20120608-0148"/>
+<plugin id="org.eclipse.swt" version="3.100.0.v4233d"/>
+<plugin id="org.eclipse.gemini.blueprint.core"/>
+<plugin id="org.eclipse.emf.cheatsheets.source"/>
+<plugin id="org.eclipse.e4.core.di.extensions" version="0.11.0.v20120523-2004"/>
+<plugin id="log4j.over.slf4j" version="1.6.4"/>
+<plugin id="org.eclipse.emf.codegen"/>
+<plugin id="org.eclipse.e4.core.di" version="1.1.0.v20120521-2346"/>
+<plugin id="org.eclipse.ecf.source" version="3.1.300.v20120608-0148"/>
+<plugin id="org.eclipse.osgi" version="3.8.0.v20120529-1548"/>
+<plugin id="org.eclipse.mylyn.commons.notifications.core.source"/>
+<plugin id="org.eclipse.osgi" version="3.8.0.v20120529-1548"/>
+<plugin id="org.eclipse.jetty.server.source" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.equinox.p2.updatesite" version="1.0.400.v20120412-1615"/>
+<plugin id="org.apache.commons.httpclient.source" version="3.1.0.v201012070820"/>
+<plugin id="org.eclipse.recommenders.rcp"/>
+<plugin id="org.eclipse.wb.core.lib" version="1.5.0.r42x201206111201"/>
+<plugin id="org.eclipse.epp.mpc.core.source"/>
+<plugin id="org.springframework.aop"/>
+<plugin id="org.eclipse.equinox.weaving.caching.source"/>
+<plugin id="org.eclipse.gef"/>
+<plugin id="org.eclipse.emf.mapping.ui"/>
+<plugin id="org.eclipse.equinox.p2.touchpoint.natives" version="1.1.0.v20120524-0542"/>
+<plugin id="com.google.guava"/>
+<plugin id="org.osgi.compendium" version="4"/>
+<plugin id="org.eclipse.ecf.provider.filetransfer.ssl" version="1.0.0.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.p2.extensionlocation.source" version="1.2.100.v20110808-1657"/>
+<plugin id="org.eclipse.mylyn.context.tasks.ui"/>
+<plugin id="org.eclipse.team.cvs.ui.source"/>
+<plugin id="org.eclipse.e4.ui.workbench.renderers.swt.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.ecf.source" version="3.1.300.v20120608-0148"/>
+<plugin id="org.eclipse.equinox.p2.ui.admin.rcp.source"/>
+<plugin id="org.eclipse.mylyn.commons.identity.core"/>
+<plugin id="org.eclipse.osgi.source" version="3.8.0.v20120529-1548"/>
+<plugin id="org.eclipse.mylyn.wikitext.ui.source"/>
+<plugin id="org.eclipse.e4.ui.model.workbench" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.equinox.p2.directorywatcher" version="1.0.300.v20110808-1657"/>
+<plugin id="org.apache.jasper.glassfish" version="2.2.2.v201205150955"/>
+<plugin id="org.eclipse.equinox.metatype.source"/>
+<plugin id="org.eclipse.core.net" version="1.2.200.v20120522-1148"/>
+<plugin id="org.eclipse.equinox.p2.ql" version="2.0.100.v20110808-1657"/>
+<plugin id="org.apache.jackrabbit.jackrabbit-spi-commons"/>
+<plugin id="org.eclipse.jdt.core.manipulation"/>
+<plugin id="org.eclipse.wb.discovery.ui"/>
+<plugin id="org.eclipse.equinox.cm"/>
+<plugin id="org.eclipse.jetty.io" version="8.1.3.v20120522"/>
+<plugin id="javax.el" version="2.2.0.v201108011116"/>
+<plugin id="com.google.inject.multibindings"/>
+<plugin id="org.eclipse.emf.converter.source"/>
+<plugin id="org.eclipse.equinox.p2.repository.source" version="2.2.0.v20120524-1945"/>
+<plugin id="org.eclipse.e4.core.contexts" version="1.1.0.v20120523-2004"/>
+<plugin id="org.apache.batik.util" version="1.6.0.v201011041432"/>
+<plugin id="org.eclipse.equinox.simpleconfigurator.source" version="1.0.300.v20110815-1744"/>
+<plugin id="org.hamcrest.core" version="1.1.0.v20090501071000"/>
+<plugin id="org.eclipse.emf.doc"/>
+<plugin id="com.thoughtworks.qdox"/>
+<plugin id="org.eclipse.emf.example.installer"/>
+<plugin id="org.apache.commons.logging.source" version="1.0.4.v201101211617"/>
+<plugin id="org.eclipse.ecf.provider.jmdns"/>
+<plugin id="org.apache.sling.scripting.jsp" version="2.0.24"/>
+<plugin id="org.springframework.asm"/>
+<plugin id="org.eclipse.equinox.p2.ui.admin.source"/>
+<plugin id="org.eclipse.xsd"/>
+<plugin id="org.eclipse.recommenders.extdoc.rcp"/>
+<plugin id="org.eclipse.help.ui.source"/>
+<plugin id="org.eclipse.equinox.coordinator"/>
+<plugin id="org.eclipse.xtext.builder.source"/>
+<plugin id="org.eclipse.m2e.archetype.common"/>
+<plugin id="org.eclipse.equinox.concurrent" version="1.0.300.v20120522-2049"/>
+<plugin id="org.apache.aries.jmx.api"/>
+<plugin id="org.eclipse.help.source" version="3.6.0.v20120521-2344"/>
+<plugin id="org.eclipse.mylyn.commons.team"/>
+<plugin id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<plugin id="org.eclipse.equinox.p2.updatechecker" version="1.1.200.v20110808-1657"/>
+<plugin id="org.eclipse.ui.forms.source" version="3.5.200.v20120521-2329"/>
+<plugin id="slf4j.log4j12" version="1.6.6"/>
+<plugin id="com.google.inject.assistedinject"/>
+<plugin id="org.eclipse.xtext.xbase.lib.source"/>
+<plugin id="org.eclipse.osgi.util.source" version="3.2.300.v20120522-1822"/>
+<plugin id="org.eclipse.jetty.server" version="8.1.3.v20120522"/>
+<plugin id="org.eclipse.jdt.debug.ui.source"/>
+<plugin id="org.eclipse.core.expressions" version="3.4.400.v20120523-2004"/>
+<plugin id="org.eclipse.core.databinding.property.source" version="1.4.100.v20120523-1955"/>
+<plugin id="org.eclipse.xtext.builder"/>
+<plugin id="org.eclipse.e4.core.commands.source" version="0.10.1.v20120523-1955"/>
+<plugin id="org.eclipse.mylyn.commons.identity.core.source"/>
+<plugin id="org.eclipse.equinox.p2.installer.source"/>
+<plugin id="org.eclipse.ui.views.log"/>
+<plugin id="javax.xml.bind.source"/>
+<plugin id="org.eclipse.equinox.jsp.jasper.registry.source" version="1.0.300.v20120522-2049"/>
+<plugin id="org.apache.felix.http.base"/>
+<plugin id="org.eclipse.team.core"/>
+<plugin id="org.eclipse.wst.server.core"/>
+<plugin id="org.eclipse.pde.junit.runtime"/>
+<plugin id="org.eclipse.pde.ua.ui"/>
+<plugin id="org.eclipse.jdt.junit.runtime.source"/>
+<plugin id="ch.qos.logback.core.source" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.core.variables" version="3.2.600.v20120521-2012"/>
+<plugin id="ch.qos.logback.classic" version="1.0.0.v20111214-2030"/>
+<plugin id="org.eclipse.equinox.servletbridge.extensionbundle" version="1.2.100.v20120522-2049"/>
+<plugin id="org.eclipse.equinox.transforms.hook.source"/>
+<plugin id="groovy-all"/>
+<plugin id="org.eclipse.mylyn.builds.core.source"/>
+<plugin id="org.eclipse.update.configurator"/>
+<plugin id="org.apache.sling.jcr.api"/>
+</includeBundles>
 </target>

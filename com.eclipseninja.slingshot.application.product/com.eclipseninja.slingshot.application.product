@@ -7,6 +7,8 @@
    </configIni>
 
    <launcherArgs>
+      <programArgs>-console -consoleLog</programArgs>
+      <vmArgs>-Dorg.osgi.service.http.port=8092</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
@@ -31,12 +33,18 @@
       <feature id="org.eclipse.emf.common"/>
       <feature id="com.eclipseninja.slingshot.application.feature" version="0.1.0.qualifier"/>
       <feature id="com.eclipseninja.slingshot.repository.feature" version="0.1.0.qualifier"/>
+      <feature id="com.eclipseninja.slingshot.feature" version="0.1.0.qualifier"/>
    </features>
 
    <configurations>
+      <plugin id="com.eclipseninja.slingshot.repository" autoStart="true" startLevel="0" />
+      <plugin id="org.apache.commons.collections" autoStart="true" startLevel="0" />
+      <plugin id="org.apache.sling.jcr.jackrabbit.server" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.cm" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.gemini.blueprint.extender" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.osgi" autoStart="true" startLevel="-1" />
    </configurations>
 

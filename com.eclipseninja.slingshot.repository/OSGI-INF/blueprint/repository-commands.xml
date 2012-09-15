@@ -10,11 +10,14 @@
 	
 	<service ref="slingShotCommand" auto-export="all-classes">
         <service-properties>
-            <entry key="osgi.command.scope"><value>slingshot</value></entry>
+            <entry key="osgi.command.scope">
+            	<value>slingshot</value>
+            </entry>
             <entry key="osgi.command.function">
                 <array value-type="java.lang.String">
                     <value>login</value>
                     <value>logout</value>
+                    <value>timeout</value>
                 </array>
             </entry>
         </service-properties>

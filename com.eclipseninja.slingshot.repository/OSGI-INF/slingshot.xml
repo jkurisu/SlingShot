@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="SlingShot">
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" deactivate="deactivate" modified="updated" name="SlingShot">
    <implementation class="com.eclipseninja.slingshot.internal.repository.SlingShotImpl"/>
    <reference bind="setEventAdmin" cardinality="1..1" interface="org.osgi.service.event.EventAdmin" name="EventAdmin" policy="static" unbind="unsetEventAdmin"/>
    <reference bind="setSlingRepository" cardinality="1..1" interface="org.apache.sling.jcr.api.SlingRepository" name="SlingRepository" policy="static" unbind="unsetSlingRepository"/>
@@ -9,4 +9,6 @@
    <service>
       <provide interface="com.eclipseninja.slingshot.repository.SlingShot"/>
    </service>
+   <property name="property1" type="String" value="value"/>
+   <reference bind="setConfigurationAdmin" cardinality="1..1" interface="org.osgi.service.cm.ConfigurationAdmin" name="ConfigurationAdmin" policy="static" unbind="unsetConfigurationAdmin"/>
 </scr:component>

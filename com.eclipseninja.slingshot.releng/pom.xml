@@ -21,6 +21,7 @@
     	<module>../org.eclipse.equinox.ds</module>
     	<module>../org.eclipse.equinox.ds.tests</module>
     	 -->
+    	<module>../com.eclipseninja.slingshot.feature</module>
     	<module>../com.eclipseninja.slingshot.logging</module>
     	<module>../com.eclipseninja.slingshot.repository</module>
     	<module>../com.eclipseninja.slingshot.repository.feature</module>
