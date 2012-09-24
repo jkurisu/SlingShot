@@ -17,9 +17,13 @@
 	</properties>
     
     <modules>
-    	<!-- 
+    	<!--
     	<module>../org.eclipse.equinox.ds</module>
+    	<module>../org.eclipse.equinox.http.servlet</module>
     	<module>../org.eclipse.equinox.ds.tests</module>
+    	 -->
+    	<!-- 
+    	<module>../com.eclipseninja.slingshot.equinox.releng</module>
     	 -->
     	<module>../com.eclipseninja.slingshot.feature</module>
     	<module>../com.eclipseninja.slingshot.logging</module>
