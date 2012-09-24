@@ -4,7 +4,9 @@
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_8DgWz_wmEeG3WvZfMVDjaA">
       <children xsi:type="advanced:Perspective" xmi:id="_8Dg9wPwmEeG3WvZfMVDjaA">
         <children xsi:type="basic:PartSashContainer" xmi:id="_8Dg9wfwmEeG3WvZfMVDjaA">
-          <children xsi:type="basic:PartStack" xmi:id="_8Dg9wvwmEeG3WvZfMVDjaA"/>
+          <children xsi:type="basic:PartStack" xmi:id="_8Dg9wvwmEeG3WvZfMVDjaA">
+            <children xsi:type="basic:Part" xmi:id="_a1IHEANJEeKgF_sIThBjJQ" elementId="com.eclipseninja.slingshot.application.part.repositoryNavigator" contributionURI="bundleclass://com.eclipseninja.slingshot.application/com.eclipseninja.slingshot.application.navigators.RepositoryNavigator" label="Repository Navigator"/>
+          </children>
         </children>
       </children>
     </children>
